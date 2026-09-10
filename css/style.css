@@ -198,7 +198,7 @@ p  { font-size: 15px; line-height: 1.7; }
 .mdl-layout__drawer .drawer-profile-wrap { overflow: hidden; background: #16161e; }
 .mdl-layout__drawer .candidate-img-drawer {
   height: 123px; width: 123px; border-radius: 50%;
-  background: url(https://avatars2.githubusercontent.com/u/26687933?s=200&v=4);
+  background: url("../img/pic%20me.jpg");
   background-size: cover; margin: 0 auto;
 }
 .mdl-layout__drawer .candidate-name { font-size: 18px; color: #fff; text-transform: capitalize; }
@@ -225,7 +225,7 @@ p  { font-size: 15px; line-height: 1.7; }
 
 /* ── About ── */
 .about-sec .candidate-img {
-  height: 298px; width: 232px; border-radius: 0%;
+  height: auto; width: 232px; border-radius: 0%;
   background: rgba(0,0,0,0.26); background-size: cover;
   margin: 0 auto; display: block;
   box-shadow: 0 4px 20px var(--shadow);
@@ -413,7 +413,7 @@ p  { font-size: 15px; line-height: 1.7; }
 }
 @media (max-width: 768px) {
   .mt-sm-120 { margin-top: 120px !important; }
-  .about-sec .candidate-img { height: 180px; width: 180px; }
+  .about-sec .candidate-img { height: auto; width: 180px; }
   .about-sec .info-wrap { text-align: center; }
   .experience-sec .exp-meta { flex-direction: column; gap: 4px; }
 }
