@@ -225,7 +225,7 @@ p  { font-size: 15px; line-height: 1.7; }
 
 /* ── About ── */
 .about-sec .candidate-img {
-  height: 230px; width: 230px; border-radius: 50%;
+  height: 2319px; width: 2980px; border-radius: 0%;
   background: rgba(0,0,0,0.26); background-size: cover;
   margin: 0 auto; display: block;
   box-shadow: 0 4px 20px var(--shadow);
