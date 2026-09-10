@@ -113,8 +113,14 @@
             "group": "Software",
             "chips": [
                 "JMatPro",
-                "Origin",
-                "ImageJ"
+                "Origin", 
+                "Minitab", 
+                "ImageJ", 
+                "MAGMA (interpretation of casting simulation results: filling, solidification, residual stress, and defects)", 
+                "AutoCAD", 
+                "Fusion 360", 
+                "CATIA",
+                "Python (basic)"
 
             ]
         },
