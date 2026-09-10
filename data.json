@@ -1,40 +1,34 @@
 {
     "about": {
         "name": "Nawon Kwak",
-        "tagline": "Graduate Research Assist",
+        "tagline": "Materials Researcher | Lightweight Alloys | Microstructure & Phase Transformation",
         "avatar": "img/pic me.jpg",
         "resume": "https://drive.google.com/file/d/1J79L3laKdUfjyP44nHjJ6E50oFebs5if/view?usp=drivesdk",
         "details": [
             {
-                "This is Nawon Kwak"
-                "emoji": "👨‍💻",
+                "emoji": "🔬",
                 "label": "Current Role",
-                "value": "Data Engineer at Fanatics, Hyderabad"
+                "value": "Research Staff, Korea Maritime & Ocean University"
             },
             {
                 "emoji": "🎓",
-                "label": "Experience Level",
-                "value": "6+ years"
+                "label": "Education",
+                "value": "M.S. in Advanced Materials Convergence Engineering"
             },
-            {S
+            {
                 "emoji": "📍",
                 "label": "Location",
-                "value": "Hyderabad, Telangana, India"
+                "value": "Republic of Korea"
             },
             {
-                "emoji": "🔭",
-                "label": "Interested in",
-                "value": "Technology, Astronomy, Space"
+                "emoji": "⚙️",
+                "label": "Research Focus",
+                "value": "Lightweight alloys, microstructure, phase transformation, residual stress, and additive manufacturing"
             },
             {
-                "emoji": "💻",
-                "label": "Currently watching",
-                "value": "One Piece 🚀"
-            },
-            {
-                "emoji": "⚡",
-                "label": "Fun fact",
-                "value": "Prefer Chai ☕ over coffee"
+                "emoji": "🧪",
+                "label": "Materials",
+                "value": "Al alloys, Mg alloys, and Ni-based superalloys"
             }
         ],
         "social": [
@@ -58,275 +52,177 @@
                 "icon": "zmdi-linkedin",
                 "url": "https://www.linkedin.com/in/nawonkwak01/",
                 "label": "LinkedIn"
+            },
+            {
+                "id": "profile-github",
+                "class": "github-link",
+                "icon": "zmdi-github",
+                "url": "https://github.com/nawonkwak01",
+                "label": "GitHub"
             }
         ]
     },
     "whatIDo": [
         {
-            "icon": "zmdi-cloud",
+            "icon": "zmdi-invert-colors",
             "iconColor": "font-blue",
-            "title": "Data Engineer",
-            "description": "I specialise in building robust data pipelines on <strong>Azure</strong> cloud. With 6+ years of experience in ETL/ELT, I design and optimise large-scale data workflows using PySpark, Azure Data Factory, Databricks, and Delta Lake. Passionate about turning raw data into reliable, actionable insights."
+            "title": "Lightweight Alloys",
+            "description": "Research on aluminum and magnesium alloys with emphasis on processing–microstructure–property relationships."
         },
         {
-            "icon": "zmdi-format-color-text",
+            "icon": "zmdi-view-module",
             "iconColor": "font-green",
-            "title": "Otaku",
-            "description": "An Otaku at heart — deeply passionate about anime, manga, and the rich storytelling traditions of Japanese pop culture. I enjoy fan communities, exploring new series, and finding the parallels between epic narratives and the craft of building software."
+            "title": "Microstructure & Phase Transformation",
+            "description": "Characterization of precipitates, phases, solidification structures, and microstructural evolution using microscopy and diffraction."
         },
         {
-            "icon": "zmdi-book",
+            "icon": "zmdi-layers",
             "iconColor": "font-yellow",
-            "title": "Learner",
-            "description": "Continuously evolving — whether it's a new cloud service, a programming paradigm, or Vedic philosophy. I thrive in fast-paced environments and love tackling real-world problems with elegant, well-crafted solutions."
+            "title": "Advanced Processing",
+            "description": "Experience with casting, heat treatment, residual-stress analysis, and metal additive manufacturing."
         }
     ],
     "experience": [
         {
-            "company": "Fanatics",
-            "role": "Data Engineer",
-            "location": "Hyderabad, Telangana, India",
-            "period": "2025 – Present",
+            "company": "Korea Maritime & Ocean University",
+            "role": "Research Staff",
+            "location": "Busan, Republic of Korea",
+            "period": "2026 – Present",
             "current": true,
-            "description": "Building and maintaining large-scale retail data pipelines on Azure cloud. Working with PySpark, Azure Data Factory, and Databricks to enable data-driven decision-making across the organisation."
+            "description": "Conducting materials characterization and residual-stress research using XRD, SEM/EDS, EBSD, and LPBF processing. Current work includes AlSi10Mg and Al–Si alloys with heat-treatment and microstructure analysis."
         },
         {
-            "company": "Fractal Analytics",
-            "role": "Data Engineer",
-            "location": "Gurugram, Haryana, India",
-            "period": "2023 – 2025",
+            "company": "Smotronix",
+            "role": "R&D Design Engineer",
+            "location": "Republic of Korea",
+            "period": "2025 – 2026",
             "current": false,
-            "description": "Designed and delivered cloud-based data engineering solutions and ETL automation on Azure, serving enterprise analytics clients across multiple industry verticals."
-        },
-        {
-            "company": "Tata Consultancy Services (TCS)",
-            "role": "Software Engineer",
-            "location": "Pune, Maharashtra, India",
-            "period": "2021 – 2023",
-            "current": false,
-            "description": "Full-stack development and backend services — building web applications with Node.js, Python, and SQL across diverse industry domains."
+            "description": "Designed EV and robot reducer components using CATIA V5 and AutoCAD, including planetary gear layouts, bearings, fits, GD&T, prototype drawings, and manufacturability reviews."
         }
     ],
     "skills": [
         {
-            "group": "Cloud",
+            "group": "Materials Characterization",
             "chips": [
-                "☁️ Microsoft Azure",
-                "☁️ Google Cloud"
+                "XRD",
+                "Residual Stress Analysis",
+                "SEM / EDS",
+                "EBSD",
+                "Optical Microscopy",
+                "ImageJ"
             ]
         },
         {
-            "group": "Data Engineering",
+            "group": "Materials Processing",
             "chips": [
-                "⚡ PySpark",
-                "🔄 ETL / ELT",
-                "🏭 Azure Data Factory",
-                "🧱 Databricks",
-                "🗄️ Delta Lake",
-                "📊 SQL"
+                "Aluminum Casting",
+                "Heat Treatment",
+                "HIP",
+                "LPBF Additive Manufacturing",
+                "Sample Preparation"
             ]
         },
         {
-            "group": "Languages",
+            "group": "Engineering Software",
             "chips": [
-                "🐍 Python",
-                "🟨 JavaScript",
-                "🟢 Node.js",
-                "☕ Java",
-                "🐘 PHP",
-                "🦀 Rust"
+                "CATIA V5",
+                "AutoCAD",
+                "ANSYS",
+                "MAGMA",
+                "MASTA"
             ]
         },
         {
-            "group": "Tools & DevOps",
+            "group": "Data & Automation",
             "chips": [
-                "🐧 Linux",
-                "🐙 Git",
-                "🐳 Docker",
-                "🌐 REST APIs"
+                "Python",
+                "Excel VBA",
+                "ImageJ Macros",
+                "DOE Data Processing"
             ]
         }
     ],
     "certifications": [
         {
-            "name": "Microsoft Azure AZ-900",
-            "issuer": "Udemy",
-            "date": "July 2021"
+            "name": "General Mechanical Engineer",
+            "issuer": "Republic of Korea",
+            "date": "Certified"
         },
         {
-            "name": "Azure Data Engineer Technologies",
-            "issuer": "Udemy",
-            "date": "April 2021"
+            "name": "Construction Machinery Engineer",
+            "issuer": "Republic of Korea",
+            "date": "Certified"
         },
         {
-            "name": "Complete Responsive Web Development",
-            "issuer": "Udemy",
-            "date": "March 2019"
+            "name": "OPIc",
+            "issuer": "ACTFL / Multicampus",
+            "date": "IH"
         },
         {
-            "name": "Google Associate Cloud Engineer",
-            "issuer": "Udemy",
-            "date": "March 2019"
+            "name": "TOEIC",
+            "issuer": "ETS",
+            "date": "815"
         }
     ],
     "interests": [
         {
-            "icon": "zmdi-tv",
-            "label": "Anime"
+            "icon": "zmdi-invert-colors",
+            "label": "Lightweight Alloys"
         },
         {
-            "icon": "zmdi-radio",
-            "label": "Music"
+            "icon": "zmdi-view-module",
+            "label": "Microstructure"
         },
         {
-            "icon": "zmdi-smartphone",
-            "label": "Gaming"
+            "icon": "zmdi-refresh",
+            "label": "Phase Transformation"
         },
         {
-            "icon": "zmdi-camera",
-            "label": "Photography"
+            "icon": "zmdi-layers",
+            "label": "Additive Manufacturing"
         },
         {
-            "icon": "zmdi-library",
-            "label": "Reading"
+            "icon": "zmdi-fire",
+            "label": "High-Temperature Alloys"
         },
         {
-            "icon": "zmdi-airplane",
-            "label": "Travelling"
+            "icon": "zmdi-chart",
+            "label": "Materials Characterization"
         }
     ],
     "repos": [
         {
-            "name": "vedic",
-            "url": "https://github.com/vedic-lang/vedic",
-            "description": "World's first working Sanskrit programming language — write code in Devanagari/Sanskrit.",
-            "banner": "https://opengraph.githubassets.com/21055013d5dc027c201544b9d231c12952be586825f6d294391e6fb00ae6bab8/vedic-lang/vedic",
-            "color": "#dea584",
-            "lang": "Rust",
-            "date": "2022-04-11T12:06:09Z",
-            "stars": 324,
-            "forks": 46,
-            "generatedOn": "2026-09-01 04:21:33.182491"
+            "name": "Research Experiences",
+            "url": "research-experiences.html",
+            "description": "Selected research projects in aluminum alloys, residual stress, casting, additive manufacturing, and Ni-based superalloys.",
+            "banner": "img/github_banner.jpg",
+            "color": "#777777",
+            "lang": "Research",
+            "date": "2026-09-10T00:00:00Z",
+            "stars": 0,
+            "forks": 0
         },
         {
-            "name": "bhagavad-gita-api",
-            "url": "https://github.com/vedicscriptures/bhagavad-gita-api",
-            "description": "Open-source REST API serving all 18 chapters and 700 verses of the Vedic Scripture Shrimad Bhagavad Gita.",
-            "banner": "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679",
-            "color": "#f1e05a",
-            "lang": "JavaScript",
-            "date": "2020-11-19T09:58:47Z",
-            "stars": 205,
-            "forks": 32,
-            "generatedOn": "2026-09-01 04:21:33.182491"
+            "name": "Research Interests",
+            "url": "research.html",
+            "description": "Current research interests in lightweight alloys, phase transformation, high-temperature materials, and microstructure characterization.",
+            "banner": "img/github_banner.jpg",
+            "color": "#777777",
+            "lang": "Materials",
+            "date": "2026-09-10T00:00:00Z",
+            "stars": 0,
+            "forks": 0
         },
         {
-            "name": "PortfolioTracker",
-            "url": "https://github.com/PtPrashantTripathi/PortfolioTracker",
-            "description": "Upstox trading analysis notebook with Medallion architecture — insights into portfolio performance.",
-            "banner": "https://repository-images.githubusercontent.com/712092492/7d148f25-5b8d-4c56-bf3d-b3e5f933d2cf",
-            "color": "#3572A5",
-            "lang": "Python",
-            "date": "2023-10-30T19:20:07Z",
-            "stars": 3,
-            "forks": 2,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "AadhaarQRCodeReader",
-            "url": "https://github.com/PtPrashantTripathi/AadhaarQRCodeReader",
-            "description": "🇮🇳 Offline Aadhaar QR Reader — scan or upload any Aadhaar card, no server, no data leak.",
-            "banner": "https://repository-images.githubusercontent.com/1263970137/45ddcf33-5cb9-4eb7-9c51-663038717e7c",
-            "color": "#f1e05a",
-            "lang": "JavaScript",
-            "date": "2026-06-09T12:43:51Z",
-            "stars": 3,
-            "forks": 0,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "linkpe",
-            "url": "https://github.com/PtPrashantTripathi/linkpe",
-            "description": "Node.js API to generate shareable UPI payment links for seamless peer-to-peer transfers.",
-            "banner": "https://repository-images.githubusercontent.com/302577255/baf4a800-0e84-11eb-9ccd-61f6eeec1ddb",
-            "color": "#e34c26",
-            "lang": "HTML",
-            "date": "2020-10-09T08:16:31Z",
-            "stars": 102,
-            "forks": 63,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "movieinfo",
-            "url": "https://github.com/PtPrashantTripathi/movieinfo",
-            "description": "Movie info web app using OMDb API — fetch ratings and details from IMDb and Rotten Tomatoes.",
-            "banner": "https://repository-images.githubusercontent.com/301684261/b94f3280-083b-11eb-84a9-dc749901f069",
-            "color": "#e34c26",
-            "lang": "HTML",
-            "date": "2020-10-06T10:02:13Z",
-            "stars": 9,
-            "forks": 6,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "IPL-2020-Prediction",
-            "url": "https://github.com/PtPrashantTripathi/IPL-2020-Prediction",
-            "description": "SVM Binary Classifier predicting IPL 2020 match outcomes using historical match-day data.",
-            "banner": "https://repository-images.githubusercontent.com/299325888/77f6e880-034c-11eb-8ee1-b44403c583c2",
-            "color": "#e34c26",
-            "lang": "HTML",
-            "date": "2020-09-28T13:58:21Z",
-            "stars": 7,
-            "forks": 7,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "VedicJyotish",
-            "url": "https://github.com/PtPrashantTripathi/VedicJyotish",
-            "description": "Vedic Jyotish astrology app - planetary positions, birth charts, and Vedic predictions.",
-            "banner": "https://repository-images.githubusercontent.com/176751084/75dfc580-1238-11eb-9ff5-7c3da715308e",
-            "color": "#3178c6",
-            "lang": "TypeScript",
-            "date": "2019-03-20T14:24:46Z",
-            "stars": 21,
-            "forks": 6,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "cloud-storage-system",
-            "url": "https://github.com/PtPrashantTripathi/cloud-storage-system",
-            "description": "Online cloud storage system — upload, modify, and manage your files in real-time on the cloud.",
-            "banner": "https://repository-images.githubusercontent.com/180216704/94d7bb29-7573-4c15-a1e0-b3eae6d41933",
-            "color": "#b07219",
-            "lang": "Java",
-            "date": "2019-04-08T19:14:55Z",
-            "stars": 18,
-            "forks": 10,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "Adhyatma",
-            "url": "https://github.com/PtPrashantTripathi/Adhyatma",
-            "description": "Vedic scripture quote search engine — find relevant shlokas based on your emotional state.",
-            "banner": "https://opengraph.githubassets.com/07c9c4f50041da220d63bfb3e972fb3b7a21571f8c7caebe854a9d76aebe12d4/PtPrashantTripathi/Adhyatma",
-            "color": "#4F5D95",
-            "lang": "PHP",
-            "date": "2019-03-12T18:04:10Z",
-            "stars": 9,
-            "forks": 1,
-            "generatedOn": "2026-09-01 04:21:33.182491"
-        },
-        {
-            "name": "php-social-networking-site",
-            "url": "https://github.com/PtPrashantTripathi/php-social-networking-site",
-            "description": "PHP social networking platform for students to showcase their projects and skills portfolio.",
-            "banner": "https://opengraph.githubassets.com/83182b089d952dc09e83c133373b4d48d2e698dfbf32bd9f167b2c2e0d61381f/PtPrashantTripathi/php-social-networking-site",
-            "color": "#4F5D95",
-            "lang": "PHP",
-            "date": "2019-02-23T17:05:29Z",
-            "stars": 9,
-            "forks": 0,
-            "generatedOn": "2026-09-01 04:21:33.182491"
+            "name": "Engineering Project Experiences",
+            "url": "project-experiences.html",
+            "description": "Mechanical design experience in EV and robotic reducer systems, including planetary gears, bearings, fits, GD&T, and prototype development.",
+            "banner": "img/github_banner.jpg",
+            "color": "#777777",
+            "lang": "Engineering",
+            "date": "2026-09-10T00:00:00Z",
+            "stars": 0,
+            "forks": 0
         }
     ],
     "contact": [
@@ -350,6 +246,13 @@
             "icon": "zmdi-linkedin",
             "url": "https://www.linkedin.com/in/nawonkwak01/",
             "label": "LinkedIn"
+        },
+        {
+            "id": "contact-github",
+            "class": "github-link",
+            "icon": "zmdi-github",
+            "url": "https://github.com/nawonkwak01",
+            "label": "GitHub"
         }
     ]
 }
