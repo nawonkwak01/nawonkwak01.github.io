@@ -3,7 +3,7 @@ fetch("data.json")
     .then(d => {
         renderAbout(d.about);
         if (document.getElementById("whatido-cards")) renderWhatIDo(d.whatIDo);
-        renderExperience(d.experience);
+        if (document.getElementById("experience-timeline")) renderExperience(d.experience);
         renderSkills(d.skills);
         renderCertifications(d.certifications);
         renderInterests(d.interests);
