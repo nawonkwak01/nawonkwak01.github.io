@@ -430,3 +430,12 @@ p  { font-size: 15px; line-height: 1.7; }
   #download_cv.mdl-button { margin-bottom: 20px; margin-left: 10px; }
 }
 
+
+/* Keep ResearchGate visible without relying on the icon font. */
+a.researchgate-link i.zmdi::before {
+  content: "RG";
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
