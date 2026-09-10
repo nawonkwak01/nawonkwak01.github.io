@@ -4,8 +4,8 @@ fetch("data.json")
         renderAbout(d.about);
         if (document.getElementById("whatido-cards")) renderWhatIDo(d.whatIDo);
         if (document.getElementById("experience-timeline")) renderExperience(d.experience);
-        renderSkills(d.skills);
-        renderCertifications(d.certifications);
+        if (document.getElementById("skills-left")) renderSkills(d.skills);
+        if (document.getElementById("certs-cards")) renderCertifications(d.certifications);
         renderInterests(d.interests);
         renderRepos(d.repos);
         renderContact(d.contact);
