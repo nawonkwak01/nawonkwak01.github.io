@@ -430,3 +430,10 @@ p  { font-size: 15px; line-height: 1.7; }
 @media (max-width: 358px) {
   #download_cv.mdl-button { margin-bottom: 20px; margin-left: 10px; }
 }
+
+#about-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 0;
+    object-fit: cover;
+}
