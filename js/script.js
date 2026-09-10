@@ -2,7 +2,7 @@ fetch("data.json")
     .then(res => res.json())
     .then(d => {
         renderAbout(d.about);
-        renderWhatIDo(d.whatIDo);
+        if (document.getElementById("whatido-cards")) renderWhatIDo(d.whatIDo);
         renderExperience(d.experience);
         renderSkills(d.skills);
         renderCertifications(d.certifications);
