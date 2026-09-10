@@ -38,39 +38,25 @@
         ],
         "social": [
             {
-                "id": "tt1",
-                "class": "facebook-link",
-                "icon": "zmdi-facebook",
-                "url": "https://facebook.com/ptprashant09",
-                "label": "facebook"
+                "id": "profile-academic-0",
+                "class": "scholar-link",
+                "icon": "zmdi-graduation-cap",
+                "url": "https://scholar.google.com/citations?user=Dra19MYAAAAJ&hl=ko",
+                "label": "Google Scholar"
             },
             {
-                "id": "tt2",
-                "class": "twitter-link",
-                "icon": "zmdi-twitter",
-                "url": "https://twitter.com/PtPrashant09",
-                "label": "twitter"
+                "id": "profile-academic-1",
+                "class": "researchgate-link",
+                "icon": "zmdi-flask",
+                "url": "https://www.researchgate.net/profile/Nawon-Kwak?ev=hdr_xprf",
+                "label": "ResearchGate"
             },
             {
-                "id": "tt3",
+                "id": "profile-academic-2",
                 "class": "linkedin-link",
                 "icon": "zmdi-linkedin",
-                "url": "https://www.linkedin.com/in/ptprashanttripathi/",
-                "label": "linkedin"
-            },
-            {
-                "id": "tt5",
-                "class": "instagram-link",
-                "icon": "zmdi-instagram",
-                "url": "https://www.instagram.com/ptprashanttripathi/",
-                "label": "instagram"
-            },
-            {
-                "id": "tt4",
-                "class": "github-link",
-                "icon": "zmdi-github",
-                "url": "https://github.com/PtPrashantTripathi",
-                "label": "github"
+                "url": "https://www.linkedin.com/in/nawonkwak01/",
+                "label": "LinkedIn"
             }
         ]
     },
@@ -344,53 +330,25 @@
     ],
     "contact": [
         {
-            "id": "tt6",
-            "class": "facebook-link",
-            "icon": "zmdi-facebook",
-            "url": "https://facebook.com/ptprashant09",
-            "label": "facebook"
+            "id": "contact-academic-0",
+            "class": "scholar-link",
+            "icon": "zmdi-graduation-cap",
+            "url": "https://scholar.google.com/citations?user=Dra19MYAAAAJ&hl=ko",
+            "label": "Google Scholar"
         },
         {
-            "id": "tt7",
-            "class": "twitter-link",
-            "icon": "zmdi-twitter",
-            "url": "https://twitter.com/PtPrashant09",
-            "label": "twitter"
+            "id": "contact-academic-1",
+            "class": "researchgate-link",
+            "icon": "zmdi-flask",
+            "url": "https://www.researchgate.net/profile/Nawon-Kwak?ev=hdr_xprf",
+            "label": "ResearchGate"
         },
         {
-            "id": "tt8",
+            "id": "contact-academic-2",
             "class": "linkedin-link",
             "icon": "zmdi-linkedin",
-            "url": "https://www.linkedin.com/in/ptprashanttripathi/",
-            "label": "linkedin"
-        },
-        {
-            "id": "tt10",
-            "class": "youtube-link",
-            "icon": "zmdi-youtube-play",
-            "url": "https://www.youtube.com/channel/UCqvHCmcCjWQ57lWmfDj2ZMg",
-            "label": "youtube"
-        },
-        {
-            "id": "tt11r",
-            "class": "reddit-link",
-            "icon": "zmdi-reddit",
-            "url": "https://www.reddit.com/user/PtPrashantTripathi",
-            "label": "reddit"
-        },
-        {
-            "id": "tt12i",
-            "class": "instagram-link",
-            "icon": "zmdi-instagram",
-            "url": "https://www.instagram.com/ptprashanttripathi/",
-            "label": "instagram"
-        },
-        {
-            "id": "tt9",
-            "class": "github-link",
-            "icon": "zmdi-github",
-            "url": "https://www.github.com/ptprashanttripathi/",
-            "label": "github"
+            "url": "https://www.linkedin.com/in/nawonkwak01/",
+            "label": "LinkedIn"
         }
     ]
 }
