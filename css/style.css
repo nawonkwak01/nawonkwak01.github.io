@@ -34,8 +34,8 @@ h5{font-size:16px;font-weight:500}
 p{font-size:15px;line-height:1.7}
 .main-wrapper{min-height:100vh;background:var(--bg);position:relative}
 .bg-struct{position:absolute;left:0;top:0;width:100%;height:480px}
-.bg-struct.bg-img{background:linear-gradient(145deg,#dce5dc 0%,#eee9df 55%,var(--bg) 100%)}
-[data-theme="dark"] .bg-struct.bg-img{background:linear-gradient(145deg,#27382f 0%,#302f29 55%,var(--bg) 100%)}
+.bg-struct.bg-img{background:linear-gradient(145deg,#dce9f4 0%,#eaf1f8 55%,var(--bg) 100%)}
+[data-theme="dark"] .bg-struct.bg-img{background:linear-gradient(145deg,#203447 0%,#202b3a 55%,var(--bg) 100%)}
 .mdl-layout__header{width:940px;max-width:calc(100% - 32px);margin:0 auto;left:0;right:0;position:fixed;background:var(--surface)!important;color:var(--text)!important;box-shadow:0 1px 5px var(--shadow);z-index:1000}
 .mdl-layout__header-row{padding:0 18px!important}
 .mdl-layout-title{font-weight:700;color:var(--text);font-size:18px}
@@ -138,3 +138,5 @@ a.researchgate-link i{color:inherit}
 .mdl-layout__header-row{padding-left:52px!important}
 .mdl-layout__header .mdl-navigation__link{padding:0 7px!important;font-size:13px}
 .mdl-layout-title{white-space:nowrap}
+
+.home-topic-cards,#whatido-cards{display:flex;flex-wrap:wrap}.home-topic-cards>div,#whatido-cards>div{display:flex}.home-topic-cards .mdl-card,#whatido-cards .mdl-card{width:100%}
