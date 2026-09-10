@@ -170,33 +170,7 @@
             "date": "815"
         }
     ],
-    "interests": [
-        {
-            "icon": "zmdi-invert-colors",
-            "label": "Lightweight Alloys"
-        },
-        {
-            "icon": "zmdi-view-module",
-            "label": "Microstructure"
-        },
-        {
-            "icon": "zmdi-refresh",
-            "label": "Phase Transformation"
-        },
-        {
-            "icon": "zmdi-layers",
-            "label": "Additive Manufacturing"
-        },
-        {
-            "icon": "zmdi-fire",
-            "label": "High-Temperature Alloys"
-        },
-        {
-            "icon": "zmdi-chart",
-            "label": "Materials Characterization"
-        }
-    ],
-    "repos": [
+     "repos": [
         {
             "name": "Research Experiences",
             "url": "research-experiences.html",
