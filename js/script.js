@@ -111,6 +111,12 @@ function renderCertifications(certs) {
 }
 
 function renderInterests(items) {
+    const grid = document.getElementById("interests-grid");
+    if (!grid) return;
+    if (!Array.isArray(items) || items.length === 0) {
+        document.getElementById("interest_sec").hidden = true;
+        return;
+    }
     document.getElementById("interests-grid").innerHTML = items
         .map(
             i =>
