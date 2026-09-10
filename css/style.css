@@ -219,8 +219,7 @@ p  { font-size: 15px; line-height: 1.7; }
 /* ── Background hero ── */
 .bg-struct { position: absolute; height: 480px; width: 100%; left: 0; top: 0; }
 .bg-struct.bg-img {
-  background: url(../img/img-bg-1.jpg);
-  background-position: center; background-size: cover;
+  background: linear-gradient(135deg, #e8edf5 0%, #f2f5fa 55%, #ffffff 100%);
 }
 
 /* ── About ── */
