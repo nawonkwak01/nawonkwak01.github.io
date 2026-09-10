@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("data.json?v=20260910-restore", { cache: "no-cache" })
     .then(res => res.json())
     .then(d => {
         renderAbout(d.about);
@@ -16,7 +16,7 @@ function renderAbout(a) {
     const socialHTML = a.social
         .map(
             s =>
-                `<li><a class="${s.class}" href="${s.url}"><i id="${s.id}" class="zmdi ${s.icon}"></i><div class="mdl-tooltip" data-mdl-for="${s.id}">${s.label}</div></a></li>`
+                `<li><a class="${s.class}" href="${s.url}" aria-label="${s.label}" title="${s.label}"><i id="${s.id}" class="zmdi ${s.icon}"></i>${s.class === "researchgate-link" ? '<span class="social-link-label">ResearchGate</span>' : ""}<div class="mdl-tooltip" data-mdl-for="${s.id}">${s.label}</div></a></li>`
         )
         .join("");
 
@@ -134,7 +134,7 @@ function renderContact(links) {
     document.getElementById("contact-icons").innerHTML = links
         .map(
             l =>
-                `<li><a class="${l.class}" href="${l.url}"><i id="${l.id}" class="zmdi ${l.icon}" tabindex="0"></i><div class="mdl-tooltip" data-mdl-for="${l.id}">${l.label}</div></a></li>`
+                `<li><a class="${l.class}" href="${l.url}" aria-label="${l.label}" title="${l.label}"><i id="${l.id}" class="zmdi ${l.icon}" tabindex="0"></i>${l.class === "researchgate-link" ? '<span class="social-link-label">ResearchGate</span>' : ""}<div class="mdl-tooltip" data-mdl-for="${l.id}">${l.label}</div></a></li>`
         )
         .join("");
 }
