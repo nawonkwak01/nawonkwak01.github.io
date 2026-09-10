@@ -121,60 +121,57 @@
                 "Fusion 360", 
                 "CATIA",
                 "Python (basic)"
+                "Excel VBA"
 
             ]
         },
         {
-            "group": "Materials Processing",
+            "group": "Characterization",
             "chips": [
                 "Aluminum Casting",
-                "Heat Treatment",
-                "HIP",
-                "LPBF Additive Manufacturing",
-                "Sample Preparation"
+                "XRD", 
+                "SEM–EDS", 
+                "LIBS", 
+                "Portable X-ray residual stress analysis", 
+                "3D optical microscopy"
             ]
         },
         {
-            "group": "Engineering Software",
+            "group": "Testing",
             "chips": [
-                "CATIA V5",
-                "AutoCAD",
-                "ANSYS",
-                "MAGMA",
-                "MASTA"
+                "Nanoindentation Testing",
+                "Vickers Hardness Testing",
+                "Tensile Testing",
+                "Ball-on-disc wear Testing",
+                "Electrochemical corrosion Testing",
+
             ]
         },
         {
-            "group": "Data & Automation",
+            "group": "Casting & Processing",
             "chips": [
-                "Python",
-                "Excel VBA",
-                "ImageJ Macros",
-                "DOE Data Processing"
+                "Lab-scale gravitational casting",
+                "Heat-treatment furnace operation",
             ]
         }
     ],
     "certifications": [
         {
-            "name": "General Mechanical Engineer",
-            "issuer": "Republic of Korea",
-            "date": "Certified"
+            "name": "Engineer Metal",
+            "issuer": "Human Resources Development Service of Korea",
+            "date": "Sep. 2024"
         },
         {
-            "name": "Construction Machinery Engineer",
-            "issuer": "Republic of Korea",
-            "date": "Certified"
+            "name": "Computer Specialist in Spreadsheet & Database Level-1",
+            "issuer": "Korea Chamber of Commerce and Industry",
+            "date": "Aug. 2022"
         },
         {
-            "name": "OPIc",
-            "issuer": "ACTFL / Multicampus",
-            "date": "IH"
-        },
-        {
-            "name": "TOEIC",
-            "issuer": "ETS",
-            "date": "815"
+            "name": "CAD Ability Test (CAT) Level-2 ",
+            "issuer": "Korea Productivity Center",
+            "date": "Jan. 2021"
         }
+        
     ],
      "repos": [
         {
