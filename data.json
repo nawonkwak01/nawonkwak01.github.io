@@ -84,32 +84,38 @@
     ],
     "experience": [
         {
-            "company": "Korea Maritime & Ocean University",
-            "role": "Research Staff",
-            "location": "Busan, Republic of Korea",
-            "period": "2026 – Present",
+            "company": "Metalcasting Research Lab, Korea Maritime and Ocean University",
+            "role": "Research Assistant (Advisor: Prof. Eunkyung Lee)",
+            "location": "Busan, South Korea",
+            "period": "Mar. 2026 – Present",
             "current": true,
-            "description": "Conducting materials characterization and residual-stress research using XRD, SEM/EDS, EBSD, and LPBF processing. Current work includes AlSi10Mg and Al–Si alloys with heat-treatment and microstructure analysis."
+            "description": "Evaluated discrepancies between simulated and measured residual stresses in full-scale HPDC aluminum automotive subframes; correlated local microstructural characteristics with residual stress; applied DOE to identify statistically significant microstructural factors affecting residual stress."
         },
         {
-            "company": "Smotronix",
-            "role": "R&D Design Engineer",
-            "location": "Republic of Korea",
-            "period": "2025 – 2026",
+            "company": "Metalcasting Research Lab, Korea Maritime and Ocean University",
+            "role": "M.S. Student",
+            "location": "Busan, South Korea",
+            "period": "Mar. 2024 – Feb. 2026",
             "current": false,
-            "description": "Designed EV and robot reducer components using CATIA V5 and AutoCAD, including planetary gear layouts, bearings, fits, GD&T, prototype drawings, and manufacturability reviews."
+            "description": "Conducted research on residual stress formation and microstructural factors in Al–Si alloys using casting simulation, X-ray residual stress measurement, microstructural characterization, and DOE."
+        },
+        {
+            "company": "Convergence Composite Materials Lab, Dong-Eui University",
+            "role": "Undergraduate Research Assistant (Advisor: Prof. Ilguk Jo)",
+            "location": "Busan, South Korea",
+            "period": "Sep. 2022 – Feb. 2024",
+            "current": false,
+            "description": "Extended an undergraduate capstone project into research on additively manufactured metallic materials. Investigated aging-temperature effects in SLM 18Ni300 maraging steel and contributed to a study on build orientation and heat treatment of SLM Inconel 718."
         }
     ],
     "skills": [
         {
-            "group": "Materials Characterization",
+            "group": "Software",
             "chips": [
-                "XRD",
-                "Residual Stress Analysis",
-                "SEM / EDS",
-                "EBSD",
-                "Optical Microscopy",
+                "JMatPro",
+                "Origin"
                 "ImageJ"
+
             ]
         },
         {
