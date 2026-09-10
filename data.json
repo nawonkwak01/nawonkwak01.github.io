@@ -6,6 +6,7 @@
         "resume": "https://drive.google.com/file/d/1J79L3laKdUfjyP44nHjJ6E50oFebs5if/view?usp=drivesdk",
         "details": [
             {
+                "This is Nawon Kwak"
                 "emoji": "👨‍💻",
                 "label": "Current Role",
                 "value": "Data Engineer at Fanatics, Hyderabad"
@@ -15,7 +16,7 @@
                 "label": "Experience Level",
                 "value": "6+ years"
             },
-            {
+            {S
                 "emoji": "📍",
                 "label": "Location",
                 "value": "Hyderabad, Telangana, India"
