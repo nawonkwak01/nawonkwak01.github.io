@@ -138,8 +138,6 @@
                         <section id="portfolio_sec" class="profile-sec mt-180 mt-sm-120 mb-30">
                             <p><a href="index.html">← Back to Home</a></p>
                             <h1 class="mb-30">RESEARCH INTERESTS</h1>
-                            <div id="whatido-cards" class="row"></div>
-                            <p id="research-error" role="status"></p>
                         </section>
 
                         <footer class="footer-sec sec-pad-top-sm sec-pad-bottom text-center">
@@ -154,34 +152,6 @@
 
         <!-- MDL JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" integrity="sha512-mPYFRGkgrXvIQo9eMKjv5vuy73j7kXXelllj3W49nVCKarBVOUxNai2dnqVIp8QnnVS7AKHwdFyZSVibSqWtkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!-- Data-driven rendering -->
-        <script>
-function renderWhatIDo(items) {
-    document.getElementById("whatido-cards").innerHTML = items
-        .map(
-            item =>
-                `<div class="col-md-4 col-xs-12 mb-30">
-          <div class="mdl-card mdl-shadow--2dp text-center">
-            <i class="zmdi ${item.icon} ${item.iconColor} profile-icon"></i>
-            <h4 class="mb-15">${item.title}</h4>
-            <p>${item.description}</p>
-          </div>
-        </div>`
-        )
-        .join("");
-}
-
-
-fetch("data.json").then(function (response) {
-    if (!response.ok) throw new Error("Unable to load research interests");
-    return response.json();
-}).then(function (data) {
-    renderWhatIDo(data.whatIDo);
-}).catch(function () {
-    document.getElementById("research-error").textContent = "Unable to load research interests. Please refresh the page.";
-});
-</script>        
-
         <!-- Dark mode toggle -->
         <script>
             (function () {
