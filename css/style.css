@@ -179,3 +179,7 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 .mdl-layout__drawer .drawer-profile-wrap .social-icons{margin-bottom:0!important}
 .mdl-layout__drawer .mdl-scroll-spy-2>.mdl-navigation{padding-top:8px;padding-bottom:8px}
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link{padding:14px 32px;line-height:24px}
+
+/* Keep legacy profile anchors clear of the fixed navigation. */
+#body.about-sec{scroll-margin-top:104px}
+@media(max-width:1024px){#body.about-sec{scroll-margin-top:78px}}
