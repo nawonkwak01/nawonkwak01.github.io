@@ -10,22 +10,29 @@
             }
         ],
         "social": [
+             {
+                "id": "profile-academic-1",
+                "class": "Gmail-link",
+                "icon": "zmdi-mail",
+                "url": "knw010724@g.kmou.ac.kr",
+                "label": "Gmail"
+            },
             {
-                "id": "profile-academic-0",
+                "id": "profile-academic-2",
                 "class": "scholar-link",
                 "icon": "zmdi-graduation-cap",
                 "url": "https://scholar.google.com/citations?user=Dra19MYAAAAJ&hl=ko",
                 "label": "Google Scholar"
             },
             {
-                "id": "profile-academic-1",
+                "id": "profile-academic-3",
                 "class": "researchgate-link",
                 "icon": "img/RG.png",
                 "url": "https://www.researchgate.net/profile/Nawon-Kwak?ev=hdr_xprf",
                 "label": "ResearchGate"
             },
             {
-                "id": "profile-academic-2",
+                "id": "profile-academic-4",
                 "class": "linkedin-link",
                 "icon": "zmdi-linkedin",
                 "url": "https://www.linkedin.com/in/nawonkwak01/",
@@ -189,20 +196,27 @@
     "contact": [
         {
             "id": "contact-academic-0",
+            "class": "Gmail-link",
+            "icon": "zmdi-graduation-cap",
+            "url": "knw010724@g.kmou.ac.kr",
+            "label": "Gmail"
+        },
+        {
+            "id": "contact-academic-1",
             "class": "scholar-link",
             "icon": "zmdi-graduation-cap",
             "url": "https://scholar.google.com/citations?user=Dra19MYAAAAJ&hl=ko",
             "label": "Google Scholar"
         },
         {
-            "id": "contact-academic-1",
+            "id": "contact-academic-2",
             "class": "researchgate-link",
             "icon": "zmdi-flask",
             "url": "https://www.researchgate.net/profile/Nawon-Kwak?ev=hdr_xprf",
             "label": "ResearchGate"
         },
         {
-            "id": "contact-academic-2",
+            "id": "contact-academic-3",
             "class": "linkedin-link",
             "icon": "zmdi-linkedin",
             "url": "https://www.linkedin.com/in/nawonkwak01/",
