@@ -37,13 +37,6 @@
                 "icon": "zmdi-linkedin",
                 "url": "https://www.linkedin.com/in/nawonkwak01/",
                 "label": "LinkedIn"
-            },
-            {
-                "id": "profile-github",
-                "class": "github-link",
-                "icon": "zmdi-github",
-                "url": "https://github.com/nawonkwak01",
-                "label": "GitHub"
             }
         ]
     },
@@ -221,13 +214,7 @@
             "icon": "zmdi-linkedin",
             "url": "https://www.linkedin.com/in/nawonkwak01/",
             "label": "LinkedIn"
-        },
-        {
-            "id": "contact-github",
-            "class": "github-link",
-            "icon": "zmdi-github",
-            "url": "https://github.com/nawonkwak01",
-            "label": "GitHub"
         }
+        
     ]
 }
