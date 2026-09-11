@@ -135,7 +135,7 @@ a.researchgate-link{color:#257c68}
 a.researchgate-link i{color:inherit}
 .social-link-label{display:block;font-size:11px;line-height:1.4;margin-top:5px;color:var(--text-secondary)}
 .mdl-layout__drawer .social-link-label{color:#ddd}
-.mdl-layout__header-row{padding-left:52px!important}
+.mdl-layout__header-row{padding-left:72px!important}
 .mdl-layout__header .mdl-navigation__link{padding:0 7px!important;font-size:13px}
 .mdl-layout-title{white-space:nowrap}
 
@@ -143,3 +143,12 @@ a.researchgate-link i{color:inherit}
 
 a.researchgate-link .social-link-label{display:none}
 a.researchgate-link i.zmdi{display:inline-block;vertical-align:middle;font-size:0;line-height:1}
+
+/* Keep the drawer above both the header and its modal backdrop. */
+.mdl-layout__header .mdl-layout__drawer-button{left:8px;top:0;width:48px;height:48px;margin:8px 0;line-height:48px;color:var(--text);z-index:1}
+.mdl-layout__header-row>a{flex-shrink:0}
+.mdl-layout__drawer{position:fixed;top:0;bottom:0;height:100dvh;max-height:100dvh;z-index:1002;overflow-y:auto}
+.mdl-layout__obfuscator{position:fixed;inset:0;z-index:1001}
+.mdl-layout__drawer .research-submenu{position:static;box-shadow:none;background:transparent;min-width:0;padding-left:16px}
+.mdl-layout__drawer .research-submenu li a{color:#ddd}
+@media(max-width:1024px){.mdl-layout__header .mdl-layout__drawer-button{margin:4px 0}}
