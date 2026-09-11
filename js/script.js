@@ -1,17 +1,3 @@
-fetch("data.json?v=20260910-restore", { cache: "no-cache" })
-    .then(res => res.json())
-    .then(d => {
-        renderAbout(d.about);
-        if (document.getElementById("whatido-cards")) renderWhatIDo(d.whatIDo);
-        if (document.getElementById("experience-timeline")) renderExperience(d.experience);
-        if (document.getElementById("skills-left")) renderSkills(d.skills);
-        if (document.getElementById("certs-cards")) renderCertifications(d.certifications);
-        renderInterests(d.interests);
-        renderRepos(d.repos);
-        renderContact(d.contact);
-        if (window.componentHandler) componentHandler.upgradeDom();
-    });
-
 function renderAbout(a) {
     const socialHTML = a.social
         .map(
@@ -185,3 +171,14 @@ function renderRepos(repos) {
         })
         .join("");
 }
+
+loadPortfolio([
+{id:"about-img",key:"about",render:renderAbout},
+{id:"whatido-cards",key:"whatIDo",render:renderWhatIDo},
+{id:"experience-timeline",key:"experience",render:renderExperience},
+{id:"skills-left",key:"skills",render:renderSkills},
+{id:"certs-cards",key:"certifications",render:renderCertifications},
+{id:"interests-grid",key:"interests",render:renderInterests},
+{id:"repo-card",key:"repos",render:renderRepos},
+{id:"contact-icons",key:"contact",render:renderContact}
+]);

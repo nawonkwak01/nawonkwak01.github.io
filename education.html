@@ -158,6 +158,7 @@
 
         <!-- MDL JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" integrity="sha512-mPYFRGkgrXvIQo9eMKjv5vuy73j7kXXelllj3W49nVCKarBVOUxNai2dnqVIp8QnnVS7AKHwdFyZSVibSqWtkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/data-loader.js?v=1"></script>
         <script>
 function renderExperience(items) {
     document.getElementById("experience-timeline").innerHTML = items
@@ -182,13 +183,7 @@ function renderExperience(items) {
 }
 
 
-fetch("data.json?v=20260910-restore", { cache: "no-cache" }).then(function (response) {
-    if (!response.ok) throw new Error("Unable to load education");
-    return response.json();
-}).then(function (data) { renderExperience(data.experience); })
-.catch(function () {
-    document.getElementById("education-error").textContent = "Unable to load education. Please refresh the page.";
-});
+loadPortfolio([{id:"experience-timeline",key:"experience",render:renderExperience}]);
         </script>
         <!-- Dark mode toggle -->
         <script>
