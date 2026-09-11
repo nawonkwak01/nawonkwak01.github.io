@@ -44,6 +44,9 @@ p{font-size:15px;line-height:1.7}
 #theme-toggle{background:none;border:0;font-size:20px;cursor:pointer;padding:6px 8px;color:var(--text)}
 .mdl-layout__drawer{background:#1e1e2e;color:#ddd}
 .mdl-layout__drawer .mdl-navigation__link{color:#aaa!important}
+/* Use the same regular weight for drawer items and Research subitems. */
+.mdl-layout__drawer .mdl-navigation__link,
+.mdl-layout__drawer .research-submenu li a{font-weight:400}
 .mdl-layout__drawer .mdl-navigation__link:hover{background:#16161e!important;color:#fff!important}
 .drawer-profile-wrap{padding-top:18px;text-align:center;background:#16161e}
 .candidate-name{color:#fff;font-size:18px;font-weight:500}
@@ -152,5 +155,5 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 .mdl-layout__drawer{position:fixed;top:0;bottom:0;height:100dvh;max-height:100dvh;z-index:1002;overflow-y:auto}
 .mdl-layout__obfuscator{position:fixed;inset:0;z-index:1001}
 .mdl-layout__drawer .research-submenu{position:static;box-shadow:none;background:transparent;min-width:0;padding-left:16px}
-.mdl-layout__drawer .research-submenu li a{color:#ddd;font-size:15px;font-weight:400;}
+.mdl-layout__drawer .research-submenu li a{color:#ddd;font-size:15px;}
 @media(max-width:1024px){.mdl-layout__header .mdl-layout__drawer-button{margin:4px 0}}
