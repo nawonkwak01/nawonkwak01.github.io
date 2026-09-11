@@ -15,5 +15,105 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test workflow
-        run: echo "ORCID workflow ready"
+
+      - name: Add ORCID links and styling
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          import re
+
+          ORCID_URL = "https://orcid.org/0009-0003-6519-5101"
+
+          drawer_block = '''                            <ul class="social-icons mb-30">
+                                <li><a class="gmail-link" href="mailto:knw010724@g.kmou.ac.kr" aria-label="Email" title="Email"><i id="drawer-email" class="zmdi zmdi-email"></i><div class="mdl-tooltip" data-mdl-for="drawer-email">Email</div></a></li>
+                                <li><a class="orcid-link" href="https://orcid.org/0009-0003-6519-5101" aria-label="ORCID" title="ORCID"><i id="drawer-orcid" class="zmdi zmdi-circle"></i><div class="mdl-tooltip" data-mdl-for="drawer-orcid">ORCID</div></a></li>
+                                <li><a class="scholar-link" href="https://scholar.google.com/citations?user=Dra19MYAAAAJ&amp;hl=ko" aria-label="Google Scholar" title="Google Scholar"><i id="drawer-scholar" class="zmdi zmdi-graduation-cap"></i><div class="mdl-tooltip" data-mdl-for="drawer-scholar">Google Scholar</div></a></li>
+                                <li><a class="researchgate-link" href="https://www.researchgate.net/profile/Nawon-Kwak?ev=hdr_xprf" aria-label="ResearchGate" title="ResearchGate"><i id="drawer-researchgate" class="zmdi zmdi-flask"></i><span class="social-link-label">ResearchGate</span><div class="mdl-tooltip" data-mdl-for="drawer-researchgate">ResearchGate</div></a></li>
+                                <li><a class="linkedin-link" href="https://www.linkedin.com/in/nawonkwak01/" aria-label="LinkedIn" title="LinkedIn"><i id="drawer-linkedin" class="zmdi zmdi-linkedin"></i><div class="mdl-tooltip" data-mdl-for="drawer-linkedin">LinkedIn</div></a></li>
+                            </ul>'''
+
+          html_files = [
+              "index.html",
+              "about.html",
+              "research.html",
+              "research-experiences.html",
+              "project-experiences.html",
+              "education.html",
+          ]
+
+          for filename in html_files:
+              path = Path(filename)
+              if not path.exists():
+                  continue
+              text = path.read_text(encoding="utf-8")
+              pattern = r'\s*<ul class="social-icons mb-30">.*?</ul>'
+              text, count = re.subn(pattern, "\n" + drawer_block, text, count=1, flags=re.S)
+              if count != 1:
+                  raise RuntimeError(f"Drawer social block not found in {filename}")
+              text = text.replace("css/style.css?v=20260911-drawer-fix", "css/style.css?v=20260911-orcid")
+              path.write_text(text, encoding="utf-8")
+
+          data_path = Path("data.json")
+          data = json.loads(data_path.read_text(encoding="utf-8"))
+
+          def add_orcid(items, item_id):
+              items = [item for item in items if item.get("class") != "orcid-link"]
+              entry = {
+                  "id": item_id,
+                  "class": "orcid-link",
+                  "icon": "zmdi-circle",
+                  "url": ORCID_URL,
+                  "label": "ORCID",
+              }
+              gmail_index = next(
+                  (i for i, item in enumerate(items) if item.get("class", "").lower() == "gmail-link"),
+                  -1,
+              )
+              items.insert(gmail_index + 1 if gmail_index >= 0 else 0, entry)
+              return items
+
+          data["about"]["social"] = add_orcid(data["about"].get("social", []), "profile-orcid")
+          data["contact"] = add_orcid(data.get("contact", []), "contact-orcid")
+          data_path.write_text(json.dumps(data, ensure_ascii=False, indent=4) + "\n", encoding="utf-8")
+
+          css_path = Path("css/style.css")
+          css = css_path.read_text(encoding="utf-8")
+          marker = "/* ORCID social icon */"
+          if marker not in css:
+              css += '''
+
+/* ORCID social icon */
+a.orcid-link i.zmdi::before{
+  content:"";
+  display:block;
+  width:26px;
+  height:26px;
+  background:url("../img/orcid.png") center/contain no-repeat;
+  filter:grayscale(1);
+  opacity:.78;
+}
+a.orcid-link i.zmdi{
+  display:inline-block;
+  vertical-align:middle;
+  font-size:0;
+  line-height:1;
+}
+a.orcid-link:hover i.zmdi::before{opacity:1}
+'''
+          css_path.write_text(css, encoding="utf-8")
+          PY
+
+      - name: Commit website changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html about.html research.html research-experiences.html project-experiences.html education.html data.json css/style.css
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Add ORCID links and monochrome icon"
+          git push
