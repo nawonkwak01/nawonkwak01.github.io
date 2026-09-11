@@ -197,7 +197,7 @@
         {
             "id": "contact-academic-0",
             "class": "Gmail-link",
-            "icon": "zmdi-google",
+            "icon": "zmdi-email",
             "url": "mailto:knw010724@g.kmou.ac.kr",
             "label": "Gmail"
         },
