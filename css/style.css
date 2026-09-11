@@ -130,7 +130,7 @@ p{font-size:15px;line-height:1.7}
 
 
 @media(max-width:768px){.experience-sec .exp-meta{flex-direction:column;align-items:flex-start;gap:4px}}
-a.researchgate-link i.zmdi::before{content:"RG";font-family:Georgia,serif;font-weight:700;font-style:normal;font-size:18px}
+a.researchgate-link i.zmdi::before{content:"";display:block;width:32px;height:32px;background:url("../img/RG.png") center/contain no-repeat}
 a.researchgate-link{color:#257c68}
 a.researchgate-link i{color:inherit}
 .social-link-label{display:block;font-size:11px;line-height:1.4;margin-top:5px;color:var(--text-secondary)}
@@ -140,3 +140,6 @@ a.researchgate-link i{color:inherit}
 .mdl-layout-title{white-space:nowrap}
 
 .home-topic-cards,#whatido-cards{display:flex;flex-wrap:wrap}.home-topic-cards>div,#whatido-cards>div{display:flex}.home-topic-cards .mdl-card,#whatido-cards .mdl-card{width:100%}
+
+a.researchgate-link .social-link-label{display:none}
+a.researchgate-link i.zmdi{display:inline-block;vertical-align:middle;font-size:0;line-height:1}
