@@ -42,7 +42,7 @@
             {
                 "id": "profile-academic-1",
                 "class": "researchgate-link",
-                "icon": "zmdi-flask",
+                "icon": "img/RG.png",
                 "url": "https://www.researchgate.net/profile/Nawon-Kwak?ev=hdr_xprf",
                 "label": "ResearchGate"
             },
