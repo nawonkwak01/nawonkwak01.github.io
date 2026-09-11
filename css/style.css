@@ -157,3 +157,14 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 .mdl-layout__drawer .research-submenu{position:static;box-shadow:none;background:transparent;min-width:0;padding-left:16px}
 .mdl-layout__drawer .research-submenu li a{color:#ddd;font-size:15px;}
 @media(max-width:1024px){.mdl-layout__header .mdl-layout__drawer-button{margin:4px 0}}
+
+/* Shared typography for primary navigation and Research dropdown links. */
+.mdl-layout__header .mdl-navigation__link,
+.mdl-layout__header .research-submenu li a,
+.mdl-layout__drawer .mdl-navigation__link,
+.mdl-layout__drawer .research-submenu li a {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+}
