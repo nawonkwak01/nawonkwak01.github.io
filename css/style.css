@@ -34,7 +34,7 @@ h5{font-size:16px;font-weight:500}
 p{font-size:15px;line-height:1.7}
 .main-wrapper{min-height:100vh;background:var(--bg);position:relative}
 .bg-struct{position:absolute;left:0;top:0;width:100%;height:480px}
-.bg-struct.bg-img{background:linear-gradient(145deg,#dce9f4 0%,#eaf1f8 55%,var(--bg) 100%)}
+.bg-struct.bg-img{background:#EAF0F5}
 [data-theme="dark"] .bg-struct.bg-img{background:linear-gradient(145deg,#203447 0%,#202b3a 55%,var(--bg) 100%)}
 .mdl-layout__header{width:940px;max-width:calc(100% - 32px);margin:0 auto;left:0;right:0;position:fixed;background:var(--surface)!important;color:var(--text)!important;box-shadow:0 1px 5px var(--shadow);z-index:1000}
 .mdl-layout__header-row{padding:0 18px!important}
@@ -168,3 +168,8 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
   font-weight: 400;
   letter-spacing: normal;
 }
+
+
+/* Keep one third of the original gap below the fixed header on Home. */
+#body.about-sec{margin-top:calc(64px + (180px - 64px)/3)!important}
+@media(max-width:1024px){#body.about-sec{margin-top:calc(56px + (120px - 56px)/3)!important}}
