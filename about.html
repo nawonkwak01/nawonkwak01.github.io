@@ -70,8 +70,8 @@
 <li><a href="research-experiences.html">Research Experiences</a></li>
 <li><a href="research.html">Research Interests</a></li>
 </ul></details></li>
-                            <li><a class="mdl-navigation__link" href="education.html">education</a></li>
-                            <li><a class="mdl-navigation__link" href="index.html#project_sec">projects</a></li>
+
+
 <li><a class="mdl-navigation__link" href="project-experiences.html">Project Experiments</a></li>
                             <li><a class="mdl-navigation__link" href="index.html#contact_sec">contact</a></li>
                         </ul>
@@ -122,9 +122,9 @@
 <li><a href="research-experiences.html">Research Experiences</a></li>
 <li><a href="research.html">Research Interests</a></li>
 </ul></details></li>
-                                <li><a class="mdl-navigation__link border-top-sep" href="education.html"><i class="zmdi zmdi-time-restore pr-15"></i><span class="font-capitalize">education</span></a></li>
+
                                 <li><a class="mdl-navigation__link border-top-sep" href="index.html#interest_sec"><i class="zmdi zmdi-coffee pr-15"></i><span class="font-capitalize">interests</span></a></li>
-                                <li><a class="mdl-navigation__link border-top-sep" href="index.html#project_sec"><i class="zmdi zmdi-code pr-15"></i><span class="font-capitalize">projects</span></a></li>
+
 <li><a class="mdl-navigation__link border-top-sep" href="project-experiences.html"><i class="zmdi zmdi-case-check pr-15"></i><span>Project Experiments</span></a></li>
                                 <li><a class="mdl-navigation__link border-top-sep border-bottom-sep" href="index.html#contact_sec"><i class="zmdi zmdi-email pr-15"></i><span class="font-capitalize">contact</span></a></li>
                             </ul>
@@ -149,21 +149,7 @@
         <p>I am Nawon Kwak, a materials researcher at Korea Maritime &amp; Ocean University. My research focuses on lightweight alloys, microstructure, phase transformation, residual stress, and metal additive manufacturing.</p>
     </div>
 </section>
-<section id="about-education" class="experience-sec sec-pad-top-sm">
-    <h2 class="mb-30">Education</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="mdl-card exp-card">
-                <div class="exp-company">Korea Maritime &amp; Ocean University</div>
-                <div class="exp-role">M.S. in Advanced Materials Convergence Engineering</div>
-                <div class="exp-meta">Mar. 2024 – Feb. 2026</div>
-                <p>Metalcasting Research Lab</p>
-            </div>
-        </div>
-    </div>
-    <p class="mt-20"><a href="education.html">View education and research experience →</a></p>
-</section>
+<section id="about-education" class="experience-sec sec-pad-top-sm"><h2 class="mb-30">Education</h2><div id="experience-timeline" class="timeline"></div></section>
 <!-- Skills -->
                         <section id="skills_sec" class="skills-sec sec-pad-top-sm">
                             <h2 class="mb-30">Skills</h2>
@@ -187,7 +173,7 @@
                             <div id="certs-cards" class="row"></div>
                         </section>
 
-                        
+
 
                         <p id="about-error" role="status"></p>
                         <footer class="footer-sec sec-pad-top-sm sec-pad-bottom text-center">
@@ -204,6 +190,29 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" integrity="sha512-mPYFRGkgrXvIQo9eMKjv5vuy73j7kXXelllj3W49nVCKarBVOUxNai2dnqVIp8QnnVS7AKHwdFyZSVibSqWtkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="js/data-loader.js?v=1"></script>
         <script>
+function renderExperience(items) {
+    document.getElementById("experience-timeline").innerHTML = items
+        .map(
+            e =>
+                `<div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="mdl-card exp-card">
+            <div class="exp-company">
+              ${e.company}${e.current ? '<span class="exp-badge ml-5">Current</span>' : ""}
+            </div>
+            <div class="exp-role">${e.role}</div>
+            <div class="exp-meta">
+              <span><i class="zmdi zmdi-pin"></i> ${e.location}</span>
+              <span><i class="zmdi zmdi-calendar"></i> ${e.period}</span>
+            </div>
+            <p>${e.description}</p>
+          </div>
+        </div>`
+        )
+        .join("");
+}
+
+
 function renderSkills(groups) {
     const half = Math.ceil(groups.length / 2);
     const left = groups.slice(0, half);
@@ -242,7 +251,7 @@ function renderCertifications(certs) {
 }
 
 
-loadPortfolio([{id:"skills-left",key:"skills",render:renderSkills},{id:"certs-cards",key:"certifications",render:renderCertifications}]);
+loadPortfolio([{id:"experience-timeline",key:"experience",render:renderExperience},{id:"skills-left",key:"skills",render:renderSkills},{id:"certs-cards",key:"certifications",render:renderCertifications}]);
         </script>
         <!-- Dark mode toggle -->
         <script>
