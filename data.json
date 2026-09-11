@@ -13,7 +13,7 @@
              {
                 "id": "profile-academic-1",
                 "class": "Gmail-link",
-                "icon": "zmdi-mail",
+                "icon": "zmdi-email",
                 "url": "knw010724@g.kmou.ac.kr",
                 "label": "Gmail"
             },
@@ -197,7 +197,7 @@
         {
             "id": "contact-academic-0",
             "class": "Gmail-link",
-            "icon": "zmdi-graduation-cap",
+            "icon": "zmdi-google",
             "url": "knw010724@g.kmou.ac.kr",
             "label": "Gmail"
         },
