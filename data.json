@@ -1,34 +1,12 @@
 {
     "about": {
         "name": "Nawon Kwak",
-        "tagline": "Graduate Research Assistant in Korea Maritime & Ocean University",
+        "tagline": "Graduate Research Assistant ┃ knw010724@g.kmou.ac.kr ",
         "avatar": "img/pic me.jpg",
         "resume": "https://drive.google.com/file/d/1J79L3laKdUfjyP44nHjJ6E50oFebs5if/view?usp=drivesdk",
         "details": [
             {
-                "emoji": "🔬",
-                "label": "Current Role",
-                "value": "Research Staff, Korea Maritime & Ocean University"
-            },
-            {
-                "emoji": "🎓",
-                "label": "Education",
-                "value": "M.S. in Advanced Materials Convergence Engineering"
-            },
-            {
-                "emoji": "📍",
-                "label": "Location",
-                "value": "Republic of Korea"
-            },
-            {
-                "emoji": "⚙️",
-                "label": "Research Focus",
-                "value": "Lightweight alloys, microstructure, phase transformation, residual stress, and additive manufacturing"
-            },
-            {
-                "emoji": "🧪",
-                "label": "Materials",
-                "value": "Al alloys, Mg alloys, and Ni-based superalloys"
+                "I am a Graduate Research Assistant in Korea Maritime & Ocean University"
             }
         ],
         "social": [
