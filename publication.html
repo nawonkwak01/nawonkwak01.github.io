@@ -57,13 +57,22 @@
         <meta name="twitter:description" content="Graduate Research Assistant at Korea Maritime &amp; Ocean University. Materials Science &amp; Engineering | Lightweight Alloys, Microstructure &amp; Phase Transformation." />
         <meta name="twitter:image" content="https://nawonkwak01.github.io/img/pic%20me.jpg" />
         <style>
-        .publication-list .publication-year{font-size:20px;font-weight:600;line-height:1.4;color:var(--text);margin:0 0 16px}
+        .publication-list .publication-year{font-size:24px;font-weight:600;line-height:1.4;color:var(--text);margin:0 0 16px}
         .publication-list ul{list-style:disc;padding-left:22px;margin:0}
         .publication-list ul+.publication-year{margin-top:32px}
-        .publication-list li{font-size:15px;line-height:1.8;margin-bottom:20px;overflow-wrap:anywhere}
+        .publication-list li{font-size:19px;line-height:1.8;margin-bottom:20px;overflow-wrap:anywhere}
         .publication-list li:last-child{margin-bottom:0}
         .publication-list strong{color:var(--text)}
         .publication-list a{display:inline-block;padding:0 4px}
+    
+        /* 3pt = 4 CSS pixels; publication text uses black on white cards in both themes. */
+        .publication-list{color:#000!important;background:#fff!important}
+        .publication-list .publication-year,.publication-list strong,.publication-list a{color:#000}
+        .main-content h2{font-size:32px}
+        .main-content h1{font-size:46px}
+        html:not([data-theme="dark"]) .main-content h1,
+        html:not([data-theme="dark"]) .main-content h2{color:#000}
+        @media(max-width:767px){.main-content h1{font-size:38px}}
     </style>
     </head>
     <body>
@@ -174,34 +183,44 @@
                             </div>
                                                               
                     
-                            <h2 id="conferences-title" class="mb-30">Conferences</h2>
-                            <div class="mdl-card publication-list">
-                                <h3 class="publication-year">2026</h3>
-                                <ul>
-                                    <li><strong>Kwak, N.</strong>, &amp; Lee, E. (2025). Doe-based investigation of microstructural factors influencing residual stress in aluminum alloys. <em>Metals</em>, <em>15</em>(7), 816. <a href="https://www.mdpi.com/2075-4701/15/7/816" target="_blank" rel="noopener noreferrer" aria-label="Read the 2025 residual stress paper (opens in a new tab)">🔗</a></li>
-                                </ul>
-                                <h3 class="publication-year">2025</h3>
-                                <ul>
-                                    <li><strong>Kwak, N.</strong>, Bang, J., Lee, E., “Effect of Solubility on Residual Stress in Al–Si Alloys”, Korea Foundry society 2025, Pohang, Korea (Nov. 2025) - Oral
-                                    <li><strong>Kwak, N.</strong>, Bang, J., Lee, H., Lee, E., “Correlation Analysis of Surface Residual Stress and Microstructure via Design of Experiments (DOE)”, TMS 2025 Annual Meeting & Exhibition, Las Vegas, Nevada, USA (Feb. 2025) - Poster
-                                    </ul>        
-                                <h3 class="publication-year">2024</h3>
-                                <ul>
-                                    <li><strong>Kwak, N.</strong>, Bang, J., Lee, E., “Measurement of Surface Residual Stress in a Sub-frame Using the cos α Method and Comparison with Simulation”, Materials Research Society of Korea 2024, Busan, Korea (Nov. 2024) - Oral
-                                    
-                                    
-                                    </ul>
-                                <h3 class="publication-year">2023</h3>
+                            </section>
+<section id="conferences" class="sec-pad-top-sm" aria-labelledby="conferences-title">
+<h2 id="conferences-title" class="mb-30">Conferences</h2>
+<div class="mdl-card publication-list">
+<h3 class="publication-year">2026</h3>
+<ul>
+<li>Baek, J., <strong>Kwak, N.</strong>, Bang, J., Park, T., Kwon, H., Lee, E., “Effect of Bonding Time on the Joint Microstructure during TLP Processing of Directionally Solidified CM247LC Superalloy”, Korea Foundry society 2026, Jeju, Korea (Apr. 2026) - Poster</li>
+</ul>
+<h3 class="publication-year">2025</h3>
+<ul>
+<li><strong>Kwak, N.</strong>, Bang, J., Lee, E., “Effect of Solubility on Residual Stress in Al–Si Alloys”, Korea Foundry society 2025, Pohang, Korea (Nov. 2025) - Oral</li>
+<li><strong>Kwak, N.</strong>, Bang, J., Lee, H., Lee, E., “Correlation Analysis of Surface Residual Stress and Microstructure via Design of Experiments (DOE)”, TMS 2025 Annual Meeting &amp; Exhibition, Las Vegas, Nevada, USA (Feb. 2025) - Poster</li>
+</ul>
+<h3 class="publication-year">2024</h3>
+<ul>
+<li><strong>Kwak, N.</strong>, Bang, J., Lee, E., “Measurement of Surface Residual Stress in a Sub-frame Using the cos α Method and Comparison with Simulation”, Materials Research Society of Korea 2024, Busan, Korea (Nov. 2024) - Oral</li>
+</ul>
+<h3 class="publication-year">2023</h3>
+<ul>
+<li><strong>Kwak, N.</strong>, Jeon, C., Jo, I., “Effect of building direction and homogenization treatment on mechanical properties of SLMed Inconel 718”, Global conference on Innovation Materials(GCIM), Jeju, Korea (Jun. 2023) - Poster</li>
+<li>Yujin Im, <strong>Kwak, N.</strong>, Jo, I., “A study on the effect of heat treatment on wear behavior of TiC/FC250 metal matrix composites”, Global conference on Innovation Materials(GCIM), Jeju, Korea (Jun. 2023) - Poster</li>
+<li>Shin, H., <strong>Kwak, N.</strong>, Lim, Y., Jo, I., “Design And Improvement Of Thermal Radiation Of A Heat Sink Manufactured Using Powder Bed Fusion Process”, Global conference on Innovation Materials(GCIM), Jeju, Korea (Jun. 2023) - Poster</li>
+</ul>
+</div>
+</section>
+<section id="thesis" class="sec-pad-top-sm" aria-labelledby="thesis-title">
+<h2 id="thesis-title" class="mb-30">Thesis</h2>
+<div class="mdl-card publication-list">
+<h3 class="publication-year">2026</h3>
+<ul><li>Influence of Microstructural Factors of Al-Si Alloys on Residual Stress Formation and Behavior (Advisor: Eunkyung Lee)</li></ul>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
 
-           
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- MDL JS -->
+<!-- MDL JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" integrity="sha512-mPYFRGkgrXvIQo9eMKjv5vuy73j7kXXelllj3W49nVCKarBVOUxNai2dnqVIp8QnnVS7AKHwdFyZSVibSqWtkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- Dark mode toggle -->
         <script>
