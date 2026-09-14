@@ -95,7 +95,7 @@ p{font-size:15px;line-height:1.7}
 .skill-chip{display:inline-block;background:var(--bg);border:1px solid var(--border);border-radius:18px;padding:6px 12px;color:var(--text)}
 .cert-card{padding:24px 18px;text-align:center}.cert-icon{font-size:34px;color:var(--primary)}.cert-name{font-weight:600;color:var(--text);margin-top:10px}.cert-meta{font-size:12px;margin-top:6px}
 @media(max-width:1024px){.mdl-layout__header{width:calc(100% - 18px)}.container{width:calc(100% - 24px)!important}.mt-sm-120{margin-top:120px!important}}
-@media(max-width:767px){h1{font-size:34px}.about-sec .candidate-img{width:190px;height:auto}.mdl-card{padding:26px 18px}.bg-struct{height:360px}.mt-180{margin-top:120px!important}.research-submenu{position:static;box-shadow:none;background:transparent}.research-submenu li a{color:#bbb}}
+@media(max-width:767px){h1{font-size:34px}.about-sec .candidate-img{width:190px;height:auto}.mdl-card{padding:26px 18px}.bg-struct{height:360px}.mt-180{margin-top:120px!important}}
 
 /* ── Experience Timeline ── */
 .experience-sec .timeline { position: relative; padding-left: 30px; }
@@ -183,3 +183,20 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 /* Keep legacy profile anchors clear of the fixed navigation. */
 #body.about-sec{scroll-margin-top:104px}
 @media(max-width:1024px){#body.about-sec{scroll-margin-top:78px}}
+
+/* Explicitly collapse desktop navigation independently of MDL parent selectors. */
+.mdl-layout__header-row{display:flex;align-items:center;flex-wrap:nowrap}
+.mdl-layout__header-row>#theme-toggle,
+.mdl-layout__header-row>#demo-menu-lower-right{flex-shrink:0}
+.mdl-layout__header .research-submenu{background:var(--surface);color:var(--text)}
+@media(max-width:1024px){
+  .mdl-layout__header-row>.mdl-navigation{display:none!important}
+  .mdl-layout__header-row{height:56px;min-height:56px;padding-right:12px!important}
+  .mdl-layout__header-row>#demo-menu-lower-right{display:none}
+  .mdl-layout__header-row>.mdl-menu__container{display:none}
+  .mdl-layout__header-row>#theme-toggle{margin-left:auto}
+}
+@media(max-width:360px){
+  .mdl-layout__header-row{padding-left:60px!important;padding-right:8px!important}
+  .mdl-layout__header .mdl-layout-title{font-size:16px}
+}
