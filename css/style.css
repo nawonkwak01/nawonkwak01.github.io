@@ -9,7 +9,7 @@
   --bg:#f0f2f5;
   --surface:#ffffff;
   --text:#212121;
-  --text-secondary:#4d4c4c;
+  --text-secondary:#757575;
   --border:rgba(0,0,0,.08);
   --shadow:rgba(0,0,0,.12);
 }
@@ -199,11 +199,4 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 @media(max-width:360px){
   .mdl-layout__header-row{padding-left:60px!important;padding-right:8px!important}
   .mdl-layout__header .mdl-layout-title{font-size:16px}
-}
-#about-details,
-#about-details li {
-  color: #212121 !important;
-}
-#about-tagline {
-  color: var(--text-secondary) !important;
 }
