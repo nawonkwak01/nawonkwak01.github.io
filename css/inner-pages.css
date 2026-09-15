@@ -22,3 +22,8 @@
 
 /* Show the full activity photo without cropping. */
 img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;align-self:center}
+
+/* Activity distinctions */
+.activity-badge{display:inline-flex;align-self:flex-start;align-items:center;max-width:100%;margin-top:12px;padding:5px 12px;border:1px solid transparent;border-radius:999px;font-size:12px;font-weight:700;line-height:1.5;letter-spacing:.02em}
+.activity-badge-award{background:#1565c0;border-color:#1565c0;color:#fff}
+.activity-badge-honors{background:linear-gradient(135deg,#f2f3f5,#cbd0d6);border-color:#b3bac3;color:#343b44}
