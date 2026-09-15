@@ -19,3 +19,6 @@
   .activity-photo-placeholder{border-right:0;border-bottom:1px solid var(--border)}
   .activity-content{padding:24px 22px}
 }
+
+/* Show the full activity photo without cropping. */
+img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;align-self:center}
