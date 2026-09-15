@@ -200,3 +200,7 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
   .mdl-layout__header-row{padding-left:60px!important;padding-right:8px!important}
   .mdl-layout__header .mdl-layout-title{font-size:16px}
 }
+
+/* Emphasize only the home profile introduction. */
+#about-details{color:#424242}
+[data-theme="dark"] #about-details{color:var(--text)}
