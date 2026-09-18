@@ -62,20 +62,28 @@
     ],
     "experience": [
         {
-            "company": "M.S. in Materials Science and Engineering",
-            "role": "Korea Maritime and Ocean University",
-            "location": "Busan, Republic of Korea",
-            "period": "Mar. 2024 – Feb. 2026",
-            "current": false,
-            "description": "Advisor: Prof. Eunkyung Lee<br>Thesis: “Influence of Microstructural Factors of Al-Si Alloy on Residual Stress Formation and Behavior”<br>GPA: 4.5/4.5"
+            "company": "Metalcasting Research Lab, Korea Maritime and Ocean University",
+            "role": "Research Assistant (Advisor: Prof. Eunkyung Lee)",
+            "location": "Busan, South Korea",
+            "period": "Mar. 2026 – Present",
+            "current": true,
+            "description": "Evaluated discrepancies between simulated and measured residual stresses in full-scale HPDC aluminum automotive subframes; correlated local microstructural characteristics with residual stress; applied DOE to identify statistically significant microstructural factors affecting residual stress."
         },
         {
-            "company": "B.S. in Materials Science and Engineering",
-            "role": "Dong-Eui University",
-            "location": "Busan, Republic of Korea",
-            "period": "Mar. 2020 – Feb. 2024",
+            "company": "Metalcasting Research Lab, Korea Maritime and Ocean University",
+            "role": "M.S. Student (Advisor: Prof. Eunkyung Lee)",
+            "location": "Busan, South Korea",
+            "period": "Mar. 2024 – Feb. 2026",
             "current": false,
-            "description": "GPA: 4.19/4.5 (Class Rank: 2/48)"
+            "description": "Conducted research on residual stress formation and microstructural factors in Al–Si alloys using casting simulation, X-ray residual stress measurement, microstructural characterization, and DOE."
+        },
+        {
+            "company": "Convergence Composite Materials Lab, Dong-Eui University",
+            "role": "Undergraduate Research Assistant (Advisor: Prof. Ilguk Jo)",
+            "location": "Busan, South Korea",
+            "period": "Sep. 2022 – Feb. 2024",
+            "current": false,
+            "description": "Assisted in characterizing the microstructure and mechanical properties of composite materials."
         }
     ],
     "skills": [
