@@ -133,7 +133,12 @@
             ]
         }
     ],
-    "certifications": [
+    "English Proficiency & certifications": [
+        {
+            "name": "TOEFL iBT Overall 3.5",
+            "issuer": "Educational Testing Service",
+            "date": "RC 4.0 LC 4.5 WRT 2.5  SPK 3.0"
+        },
         {
             "name": "Engineer Metal",
             "issuer": "Human Resources Development Service of Korea",
