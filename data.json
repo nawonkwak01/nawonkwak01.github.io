@@ -80,30 +80,20 @@
     ],
     "skills": [
         {
-            "group": "Software",
+            "group": "Simulation",
             "chips": [
-                "JMatPro",
-                "Origin", 
-                "Minitab", 
-                "ImageJ", 
-                "MAGMA (interpretation of casting simulation results)", 
-                "AutoCAD", 
-                "Fusion 360", 
-                "CATIA",
-                "Python",
-                "Excel VBA"
-
+                "JMatPro (Phase equilibria and solidification)",
+                "MAGMA (interpretation of casting simulation results)"
             ]
         },
         {
-            "group": "Characterization",
+            "group": "Materials Characterization",
             "chips": [
-                "Aluminum Casting",
-                "XRD", 
                 "SEM–EDS", 
+                "XRD",
                 "LIBS", 
-                "Portable X-ray residual stress analysis", 
-                "3D optical microscopy"
+                "3D Optical Microscopy",
+                "Portable X-ray Residual Stress Analysis"               
             ]
         },
         {
@@ -112,16 +102,34 @@
                 "Nanoindentation Testing",
                 "Vickers Hardness Testing",
                 "Tensile Testing",
-                "Ball-on-disc wear Testing",
-                "Electrochemical corrosion Testing"
+                "Ball-on-disc Wear Testing",
+                "Melt Quality Testing",
+                "Immersion Testing",
+                "Cyclic Potentiodynamic Polarization (CPDP)"
 
             ]
         },
         {
-            "group": "Casting & Processing",
+            "group": "Processing & Preparation",
             "chips": [
-                "Lab-scale gravitational casting",
-                "Heat-treatment furnace operation"
+                "Lab-scale gravity casting",
+                "Heat-treatment furnace operation",
+                "Mechanical and Electrolytic polishing"
+            ]
+        }
+         {
+            "group": "Materials Characterization",
+            "chips": [
+                "OriginPro",
+                "JMatPro", 
+                "ImageJ",
+                "Minitab (DOE)",  
+                "Python (Basic)",
+                "Excel VBA",
+                "AutoCAD",
+                "CATIAV5",
+                "Fusion 360"
+
             ]
         }
     ],
@@ -129,7 +137,7 @@
         {
             "name": "TOEFL iBT Overall 3.5",
             "issuer": "Educational Testing Service",
-            "date": "RC 4.0 LC 4.5 WRT 2.5  SPK 3.0"
+            "date": "RC 4.0 LC 5.0 WRT 2.5  SPK 3.0"
         },
         {
             "name": "Engineer Metal",
