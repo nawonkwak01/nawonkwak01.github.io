@@ -27,7 +27,7 @@ function renderWhatIDo(items) {
         .map(
             item =>
                 `<div class="col-md-4 col-xs-12 mb-30">
-          <a class="mdl-card mdl-shadow--2dp text-center" href="research.html" target="_blank" rel="noopener noreferrer" aria-label="${item.title} — Research Interests (opens in a new tab)" style="color: inherit; text-decoration: none;">
+          <a class="mdl-card mdl-shadow--2dp text-center" href="research.html" aria-label="${item.title} — Research Interests" style="color: inherit; text-decoration: none;">
             <i class="zmdi ${item.icon} ${item.iconColor} profile-icon"></i>
             <h4 class="mb-15">${item.title}</h4>
             <p>${item.description}</p>
