@@ -41,5 +41,5 @@ img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;a
 .research-description{list-style:disc;margin:0 0 20px;padding-left:22px;color:var(--text-secondary);font-size:15px;line-height:1.8}
 .research-description li+li{margin-top:6px}
 .research-image-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
-.research-image-grid img{display:block;width:100%;height:auto;aspect-ratio:auto;align-self:start;object-fit:contain;border:1px solid var(--primary);background:var(--bg);box-sizing:border-box}
+.research-image-grid img{display:block;width:100%;height:auto;aspect-ratio:auto;align-self:start;object-fit:contain;border:0;background:var(--bg);box-sizing:border-box}
 @media(max-width:480px){.research-experience-card{padding:16px}.research-image-grid{gap:8px}.research-category h2{font-size:20px}}
