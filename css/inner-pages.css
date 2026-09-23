@@ -43,3 +43,4 @@ img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;a
 .research-image-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .research-image-grid img{display:block;width:100%;height:auto;aspect-ratio:auto;align-self:start;object-fit:contain;border:0;background:var(--bg);box-sizing:border-box}
 @media(max-width:480px){.research-experience-card{padding:16px}.research-image-grid{gap:8px}.research-category h2{font-size:20px}}
+.research-image-grid img:only-child{grid-column:1 / -1}
