@@ -47,5 +47,6 @@ img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;a
 
 /* Video overlays only the blue placeholder in RE-5.png. Keep these percentages aligned with that artwork. */
 .research-slm-media{position:relative;grid-column:1 / -1;min-width:0}
-.research-slm-media>img{display:block;width:100%;height:auto}
-.research-slm-video{position:absolute;left:0.63%;top:9.3%;width:30.3%;height:85.7%;object-fit:contain;background:#000;border:0}
+.research-slm-media>img{display:block;width:100%;height:auto;background:#fff}
+.research-slm-window{position:absolute;left:0.53%;top:9.1%;width:30.5%;height:86.1%;overflow:hidden;background:#fff;border:0;line-height:0}
+.research-slm-window .research-slm-video{display:block;position:absolute;inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);object-fit:cover;background:transparent;border:0;outline:0}
