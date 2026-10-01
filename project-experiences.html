@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta
             name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            content="width=device-width, initial-scale=1.0" />
         <title>Projects | Nawon Kwak</title>
         <meta name="title" content="Nawon Kwak" />
         <meta
@@ -66,6 +66,20 @@
 [data-theme="dark"] .project-category-card,[data-theme="dark"] .funded-project h3,[data-theme="dark"] .funded-project .research-description{color:var(--text)}
 [data-theme="dark"] .funded-project .project-meta{color:var(--text-secondary)}
 @media(max-width:480px){.funded-project h3{font-size:17px}.funded-project+.funded-project{margin-top:24px;padding-top:24px}}
+
+.project-application{color:var(--text);margin:0 0 4px;font-size:14px}
+.funded-project .project-meta{margin-bottom:12px}
+.project-role{font-size:14px;color:var(--text-secondary);margin:0 0 14px}
+.project-figure{margin:22px 0 16px}
+.project-image-placeholder{min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;border:1px dashed #9aa9b8;border-radius:6px;background:var(--bg);color:var(--text-secondary);font-size:13px}
+.project-image{display:block;width:100%;height:auto;object-fit:contain;border-radius:6px}
+.project-figure figcaption{margin-top:8px;font-size:12px;line-height:1.6;color:var(--text-secondary);text-align:center}
+.project-funding{font-size:13px;line-height:1.7;color:var(--text-secondary)}
+.project-funding summary{cursor:pointer;display:list-item;list-style:disclosure-closed inside;padding:4px 0;width:fit-content}
+.project-funding[open] summary{list-style-type:disclosure-open}
+.project-funding summary:focus-visible{outline:2px solid var(--primary);outline-offset:4px}
+.project-funding p{font-size:13px;margin:8px 0 0}
+@media(max-width:480px){.project-image-placeholder{min-height:150px}.project-figure{margin-top:18px}}
 </style>
 </head>
     <body>
@@ -160,38 +174,102 @@
                     <div class="container">
 
                         <section id="portfolio_sec" class="profile-sec inner-page-intro mb-30">
-                            <h1 class="mb-30">Projects</h1>
+                            <h1 class="mb-30">Selected Research Projects</h1>
 
                         </section>
 
 <section class="research-category" aria-labelledby="residual-stress-projects">
-<h2 id="residual-stress-projects">Residual Stress and Microstructure in Cast Aluminum Components</h2>
+<h2 id="residual-stress-projects">Residual Stress in Cast Aluminum Components</h2>
 <div class="research-experience-card project-category-card">
-<article class="funded-project">
-<h3>Unveiling a 4D Residual-Stress Paradigm for Self-adaptive Corrosion and Fatigue Design in Automotive Aluminum Alloys</h3>
-<p class="project-meta">Mar. 2026 – Present</p>
-<ul class="research-description"><li>Coordinate laboratory experiments, analysis, and research progress for a project on residual stress in automotive aluminum alloys.</li>
-<li>Use simulation-guided measurement locations, portable X-ray residual-stress analysis, and DOE to investigate stress metrics and microstructural factors.</li></ul>
+<article class="funded-project" id="front-subframe">
+<h3>Residual Stress Analysis and Mitigation in High-Vacuum Die Casting</h3>
+<p class="project-application"><strong>Application:</strong> Front Subframe</p>
+<p class="project-meta">Mar. 2024 – Present · Project Participant</p>
+<p class="project-role"><strong>My role:</strong> Primary project researcher within the laboratory, coordinating experiments, analysis, and research progress.</p>
+<ul class="research-description">
+<li>Map residual stress distributions through casting simulations and location-specific X-ray measurements.</li>
+<li>Compare simulated and measured stresses and assess measurement reliability.</li>
+<li>Investigate microstructural factors associated with residual stress and local variations in mechanical properties.</li>
+<li>Propose casting process modifications to mitigate residual stress.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/front-subframe.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Front Subframe image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Front subframe · Residual stress distribution</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Development of High Vacuum Die Casting Process and Mold Technology with a Vacuum Degree of 70 mbar or Less for Rack Housing Integrated I-Type Front Subframe</p></details>
 </article>
-<article class="funded-project">
-<h3>Development of an xEV Motor Housing Using Hybrid Die-Casting Technology</h3>
-<p class="project-meta">Sep. 2024 – Present</p>
-<ul class="research-description"><li>Take primary responsibility within the laboratory for coordinating experiments, analysis, and project progress.</li>
-<li>Analyze MAGMA filling, solidification, residual-stress, and defect distributions under actual casting conditions.</li>
-<li>Measure prototype residual stresses using portable X-ray analysis and assess simulation–experiment differences, including the effects of local cooling and squeeze application locations.</li></ul>
+<article class="funded-project" id="motor-housing">
+<h3>Residual Stress and Distortion Analysis in Hybrid Die Casting</h3>
+<p class="project-application"><strong>Application:</strong> xEV Motor Housing</p>
+<p class="project-meta">Sep. 2024 – Present · Project Participant</p>
+<p class="project-role"><strong>My role:</strong> Primary project researcher within the laboratory, coordinating experiments, analysis, and research progress.</p>
+<ul class="research-description">
+<li>Analyze filling, solidification, residual stress, and defect distributions using MAGMA under actual casting process conditions.</li>
+<li>Measure residual stress at simulation-selected locations and assess discrepancies between predictions and measurements.</li>
+<li>Investigate factors governing casting distortion and evaluate external cooling and squeeze conditions for residual stress mitigation.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/motor-housing.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="xEV Motor Housing image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Motor housing · Simulation and measurement</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Development of an xEV Motor Housing Using Hybrid Die-Casting Technology</p></details>
 </article>
-<article class="funded-project">
-<h3>Development of a 30% Lightweight, High-Stiffness, and High-Durability Semi-Trailing Arm for Production xEVs</h3>
-<p class="project-meta">Jul. 2024 – Present</p>
-<ul class="research-description"><li>Measure residual stresses at locations susceptible to stress concentration and thermal deformation in counter-pressure-cast prototypes under different heat treatments.</li>
-<li>Evaluate cooling-method effects on stress magnitude and direction, and relate measured stresses to local microstructure.</li></ul>
+<article class="funded-project" id="semi-trailing-arm">
+<h3>Effects of Heat Treatment and Microstructure on Residual Stress in Counter-Pressure Casting</h3>
+<p class="project-application"><strong>Application:</strong> Semi-Trailing Arm</p>
+<p class="project-meta">Jul. 2024 – Present · Project Participant</p>
+<ul class="research-description">
+<li>Characterize residual stress across alloy and heat-treatment conditions at locations susceptible to stress concentration and thermal distortion.</li>
+<li>Examine how cooling conditions affect residual stress magnitude and direction.</li>
+<li>Relate local microstructural characteristics to measured residual stress and investigate stress development mechanisms.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/semi-trailing-arm.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Semi-Trailing Arm image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Semi-trailing arm · Microstructure and residual stress</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Development of a 30% Lightweight, High-Stiffness, and High-Durability Semi-Trailing Arm for Production xEVs</p></details>
 </article>
-<article class="funded-project">
-<h3>Development of High Vacuum Die Casting Process and Mold Technology with a Vacuum Degree of 70 mbar or Less for Rack Housing Integrated I-Type Front Subframe</h3>
-<p class="project-meta">Mar. 2024 – Present</p>
-<ul class="research-description"><li>Coordinate laboratory experiments and analysis, selecting measurement locations from simulations and evaluating portable X-ray measurement reliability.</li>
-<li>Compare simulated and measured residual stresses across stress metrics; von Mises stress showed the closest agreement in the full-scale subframe study.</li>
-<li>Apply DOE to separate microstructural effects on residual stress, identifying Si sphericity as a statistically significant factor.</li></ul>
+<article class="funded-project" id="residual-stress-4d">
+<h3>Residual Stress for Corrosion and Fatigue Design in Automotive Aluminum Alloys</h3>
+<p class="project-application"><strong>Application:</strong> Automotive Aluminum Alloys</p>
+<p class="project-meta">Mar. 2026 – Present · Project Participant</p>
+<p class="project-role"><strong>My role:</strong> Primary project researcher within the laboratory, coordinating experiments, analysis, and research progress.</p>
+<ul class="research-description">
+<li>Coordinate laboratory experiments, analysis, and research progress for a project on residual stress in automotive aluminum alloys.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/residual-stress-4d.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Automotive Aluminum Alloys image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Automotive aluminum alloys · Research overview</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Unveiling a 4D Residual-Stress Paradigm for Self-adaptive Corrosion and Fatigue Design in Automotive Aluminum Alloys</p></details>
 </article>
 </div>
 </section>
@@ -199,35 +277,96 @@
 <section class="research-category" aria-labelledby="semi-solid-casting">
 <h2 id="semi-solid-casting">Simulation-Based Optimization of Semi-Solid Casting</h2>
 <div class="research-experience-card project-category-card">
-<article class="funded-project">
-<h3>Development of Multi-Temperature-Control and Surface-Modified Die Technologies for Forming 2.5-mm-Class Thin-Walled Components Using Semi-Solid Casting</h3>
-<p class="project-meta">Mar. 2024 – Present</p>
-<ul class="research-description"><li>Analyze semi-solid casting simulations to evaluate melt filling and flow behavior and propose conditions for reducing internal defects.</li>
-<li>Apply DOE to evaluate combinations of cavity, neck, shape, and width variables for defect minimization.</li></ul>
+<article class="funded-project" id="semi-solid-casting-project">
+<h3>Process and Geometry Optimization for Defect Control in Semi-Solid Casting</h3>
+<p class="project-application"><strong>Applications:</strong> Shock Absorber Housing and Motor Support Housing</p>
+<p class="project-meta">Mar. 2024 – Present · Project Participant</p>
+<ul class="research-description">
+<li>Analyze filling and solidification behavior to investigate defect formation across process conditions and component geometries.</li>
+<li>Apply design of experiments (DOE) to evaluate cavity, neck, and other geometry-related variables affecting defect formation.</li>
+<li>Identify process and geometry conditions that improve filling behavior and reduce predicted internal defects.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/semi-solid-casting-project.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Shock Absorber Housing and Motor Support Housing image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Semi-solid casting · Filling, solidification, and defects</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Development of Multi-Temperature-Control and Surface-Modified Die Technologies for Forming 2.5-mm-Class Thin-Walled Components Using Semi-Solid Casting</p></details>
 </article>
 </div>
 </section>
 
 <section class="research-category" aria-labelledby="alloys-and-coatings">
-<h2 id="alloys-and-coatings">Microstructure and Performance of Cast Aluminum Alloys and Coatings</h2>
+<h2 id="alloys-and-coatings">Alloy Development and Surface Performance</h2>
 <div class="research-experience-card project-category-card">
-<article class="funded-project">
-<h3>Characterization of Cast Aluminum Alloys and Coating Materials for Automotive Brake Discs</h3>
-<p class="project-meta">Dec. 2024 – Jun. 2026</p>
-<ul class="research-description"><li>Evaluated cast aluminum alloys and cermet coatings using microstructural analysis, hardness and surface-roughness measurements, and room- and high-temperature wear tests.</li>
-<li>Assessed coating interfacial adhesion and corrosion behavior through electrochemical, salt-immersion, and galvanic corrosion tests.</li></ul>
+<article class="funded-project" id="recycled-aluminum">
+<h3>Composition–Microstructure–Property Relationships in Recycled Aluminum Alloys</h3>
+<p class="project-application"><strong>Application:</strong> Recycled Aluminum Alloys</p>
+<p class="project-meta">Mar. 2024 – Mar. 2025 · Project Participant</p>
+<ul class="research-description">
+<li>Evaluated alloy-composition effects on castability, mechanical properties, and corrosion behavior through fluidity, tensile, impact, and electrochemical tests.</li>
+<li>Investigated microstructural evolution and intermetallic phases across alloy compositions and heat treatments using optical microscopy and SEM/EDS.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/recycled-aluminum.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Recycled Aluminum Alloys image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Recycled aluminum · Microstructure and properties</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Development of an Environmentally Friendly Aluminum Machining Scrap Recycling Process to Improve Yield by 10%</p></details>
 </article>
-<article class="funded-project">
-<h3>Development of Trace-Element Control Technology for Recycled Aluminum Alloys to Reduce Carbon Emissions</h3>
-<p class="project-meta">Aug. 2025 – Feb. 2026</p>
-<ul class="research-description"><li>Evaluated composition-dependent castability, mechanical properties, and corrosion behavior through fluidity, tensile, impact, and electrochemical tests.</li>
-<li>Used optical microscopy and SEM–EDS to investigate microstructural evolution and intermetallic phases across alloy compositions and heat treatments.</li></ul>
+<article class="funded-project" id="trace-elements">
+<h3>Effects of Trace Elements on Recycled Aluminum Alloy Performance</h3>
+<p class="project-application"><strong>Application:</strong> Recycled Aluminum Alloys</p>
+<p class="project-meta">Aug. 2025 – Feb. 2026 · Project Participant</p>
+<ul class="research-description">
+<li>Evaluated composition-dependent castability, mechanical properties, and corrosion behavior through fluidity, tensile, impact, and electrochemical tests.</li>
+<li>Characterized microstructure and intermetallic phases using optical microscopy and SEM/EDS across alloy compositions and heat treatments.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/trace-elements.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Recycled Aluminum Alloys image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Trace-element control · Alloy characterization</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Development of Trace-Element Control Technology for Recycled Aluminum Alloys to Reduce Carbon Emissions</p></details>
 </article>
-<article class="funded-project">
-<h3>Development of an Environmentally Friendly Aluminum Machining Scrap Recycling Process to Improve Yield by 10%</h3>
-<p class="project-meta">Mar. 2024 – Mar. 2025</p>
-<ul class="research-description"><li>Assessed alloy-composition effects on castability, mechanical properties, and corrosion behavior using fluidity, tensile, impact, and electrochemical tests.</li>
-<li>Characterized microstructure and intermetallic phases using optical microscopy and SEM–EDS to support recycling-process development.</li></ul>
+<article class="funded-project" id="brake-disc-coatings">
+<h3>Wear and Corrosion Performance of Aluminum Alloys and Cermet Coatings</h3>
+<p class="project-application"><strong>Application:</strong> Automotive Brake Discs</p>
+<p class="project-meta">Dec. 2024 – Jun. 2026 · Project Participant</p>
+<ul class="research-description">
+<li>Evaluated cast aluminum alloys and cermet coatings using microstructural analysis, hardness and surface-roughness measurements, and room- and high-temperature wear tests.</li>
+<li>Assessed coating interfacial adhesion and corrosion behavior through electrochemical, salt-immersion, and galvanic corrosion tests.</li>
+</ul>
+<figure class="project-figure">
+<!-- PHOTO: Replace the project-image-placeholder div below with:
+<img class="project-image" src="img/projects/brake-disc-coatings.jpg" alt="Describe the actual image here" loading="lazy" width="1200" height="675">
+Upload your image to that path and update the figcaption below. Images are displayed without cropping.
+-->
+<div class="project-image-placeholder" role="img" aria-label="Automotive Brake Discs image placeholder">
+<svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="8" width="38" height="32" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m7 36 12-11 8 7 7-8 8 12"/></svg>
+<span>Project image forthcoming</span>
+</div>
+<figcaption>Brake disc materials · Wear and coating microstructure</figcaption>
+</figure>
+<details class="project-funding"><summary>Project details</summary><p>Characterization of Cast Aluminum Alloys and Coating Materials for Automotive Brake Discs</p></details>
 </article>
 </div>
 </section>
