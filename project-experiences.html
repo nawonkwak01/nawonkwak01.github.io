@@ -80,6 +80,11 @@
 .project-funding summary:focus-visible{outline:2px solid var(--primary);outline-offset:4px}
 .project-funding p{font-size:13px;margin:8px 0 0}
 @media(max-width:480px){.project-image-placeholder{min-height:150px}.project-figure{margin-top:18px}}
+.category-project-details{margin-top:20px;padding:18px 24px;background:var(--surface);border-radius:8px;box-shadow:0 2px 10px var(--shadow)}
+.category-project-details summary{font-size:14px;font-weight:700;color:var(--text)}
+.project-details-list{list-style:decimal;margin:14px 0 0;padding-left:24px;color:var(--text);font-size:14px;line-height:1.8;overflow-wrap:anywhere}
+.project-details-list li+li{margin-top:12px}
+@media(max-width:480px){.category-project-details{padding:16px}.project-details-list{padding-left:20px}}
 </style>
 </head>
     <body>
@@ -203,7 +208,6 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Front subframe · Residual stress distribution</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Development of High Vacuum Die Casting Process and Mold Technology with a Vacuum Degree of 70 mbar or Less for Rack Housing Integrated I-Type Front Subframe</p></details>
 </article>
 <article class="funded-project" id="motor-housing">
 <h3>Residual Stress and Distortion Analysis in Hybrid Die Casting</h3>
@@ -226,7 +230,6 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Motor housing · Simulation and measurement</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Development of an xEV Motor Housing Using Hybrid Die-Casting Technology</p></details>
 </article>
 <article class="funded-project" id="semi-trailing-arm">
 <h3>Effects of Heat Treatment and Microstructure on Residual Stress in Counter-Pressure Casting</h3>
@@ -248,7 +251,6 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Semi-trailing arm · Microstructure and residual stress</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Development of a 30% Lightweight, High-Stiffness, and High-Durability Semi-Trailing Arm for Production xEVs</p></details>
 </article>
 <article class="funded-project" id="residual-stress-4d">
 <h3>Residual Stress for Corrosion and Fatigue Design in Automotive Aluminum Alloys</h3>
@@ -268,9 +270,17 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Automotive aluminum alloys · Research overview</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Unveiling a 4D Residual-Stress Paradigm for Self-adaptive Corrosion and Fatigue Design in Automotive Aluminum Alloys</p></details>
 </article>
 </div>
+<details class="project-funding category-project-details">
+<summary>Project details</summary>
+<ol class="project-details-list">
+<li>Unveiling a 4D Residual-Stress Paradigm for Self-adaptive Corrosion and Fatigue Design in Automotive Aluminum Alloys — National Research Foundation of Korea, RS-2026-25493967 (Mar. 2026 – Present)</li>
+<li>Development of an xEV Motor Housing Using Hybrid Die-Casting Technology — Ministry of Trade, Industry and Energy, RS-2024-00433030 (Sep. 2024 – Present)</li>
+<li>Development of a 30% Lightweight, High-Stiffness, and High-Durability Semi-Trailing Arm for Production xEVs — Ministry of Trade, Industry and Energy, RS-2024-00470221 (Jul. 2024 – Present)</li>
+<li>Development of High Vacuum Die Casting Process and Mold Technology with a Vacuum Degree of 70 mbar or Less for Rack Housing Integrated I-Type Front Subframe — Ministry of Trade, Industry and Energy, RS-2022-KT219255 (Mar. 2024 – Present)</li>
+</ol>
+</details>
 </section>
 
 <section class="research-category" aria-labelledby="semi-solid-casting">
@@ -296,9 +306,14 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Semi-solid casting · Filling, solidification, and defects</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Development of Multi-Temperature-Control and Surface-Modified Die Technologies for Forming 2.5-mm-Class Thin-Walled Components Using Semi-Solid Casting</p></details>
 </article>
 </div>
+<details class="project-funding category-project-details">
+<summary>Project details</summary>
+<ol class="project-details-list">
+<li>Development of Multi-Temperature-Control and Surface-Modified Die Technologies for Forming 2.5-mm-Class Thin-Walled Components Using Semi-Solid Casting — Korea Evaluation Institute of Industrial Technology, RS-2023-KT224924 (Mar. 2024 – Present)</li>
+</ol>
+</details>
 </section>
 
 <section class="research-category" aria-labelledby="alloys-and-coatings">
@@ -323,7 +338,6 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Recycled aluminum · Microstructure and properties</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Development of an Environmentally Friendly Aluminum Machining Scrap Recycling Process to Improve Yield by 10%</p></details>
 </article>
 <article class="funded-project" id="trace-elements">
 <h3>Effects of Trace Elements on Recycled Aluminum Alloy Performance</h3>
@@ -344,7 +358,6 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Trace-element control · Alloy characterization</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Development of Trace-Element Control Technology for Recycled Aluminum Alloys to Reduce Carbon Emissions</p></details>
 </article>
 <article class="funded-project" id="brake-disc-coatings">
 <h3>Wear and Corrosion Performance of Aluminum Alloys and Cermet Coatings</h3>
@@ -365,9 +378,16 @@ Upload your image to that path and update the figcaption below. Images are displ
 </div>
 <figcaption>Brake disc materials · Wear and coating microstructure</figcaption>
 </figure>
-<details class="project-funding"><summary>Project details</summary><p>Characterization of Cast Aluminum Alloys and Coating Materials for Automotive Brake Discs</p></details>
 </article>
 </div>
+<details class="project-funding category-project-details">
+<summary>Project details</summary>
+<ol class="project-details-list">
+<li>Characterization of Cast Aluminum Alloys and Coating Materials for Automotive Brake Discs — Industry-Sponsored Research Project (Dec. 2024 – Jun. 2026)</li>
+<li>Development of Trace-Element Control Technology for Recycled Aluminum Alloys to Reduce Carbon Emissions — Industry-Sponsored Research Project (Aug. 2025 – Feb. 2026)</li>
+<li>Development of an Environmentally Friendly Aluminum Machining Scrap Recycling Process to Improve Yield by 10% — Korea Technology and Information Promotion Agency for SMEs, RS-2023-0022652 (Mar. 2024 – Mar. 2025)</li>
+</ol>
+</details>
 </section>
 
                         <footer class="footer-sec sec-pad-top-sm sec-pad-bottom text-center">
