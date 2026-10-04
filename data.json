@@ -3,7 +3,7 @@
         "name": "Nawon Kwak",
         "tagline": "Graduate Research Assistant ┃ knw010724@g.kmou.ac.kr ",
         "avatar": "img/pic me.jpg",
-        "resume": "https://drive.google.com/file/d/1J79L3laKdUfjyP44nHjJ6E50oFebs5if/view?usp=drivesdk",
+        "resume": "https://drive.google.com/uc?export=download&id=1WjPPLdyyAcYeGD8vyo5LvOFasrB5wrH3",
         "details": [
             {
                 "emoji": "", "label": "", "value": "I am a Graduate Research Assistant in Korea Maritime & Ocean University, I interested in Lightweight alloys and Microsturucure"
@@ -180,9 +180,9 @@
             "forks": 0
         },
         {
-            "name": "Engineering Project Experiences",
+            "name": "Project Experiences",
             "url": "project-experiences.html",
-            "description": "Mechanical design experience in EV and robotic reducer systems, including planetary gears, bearings, fits, GD&T, and prototype development.",
+            "description": "Research projects in residual stress, semi-solid casting simulation, and the microstructure and performance of aluminum alloys and coatings.",
             "banner": "img/github_banner.jpg",
             "color": "#777777",
             "lang": "Engineering",

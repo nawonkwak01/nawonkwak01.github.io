@@ -204,3 +204,7 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 /* Emphasize only the home profile introduction. */
 #about-details{color:#424242}
 [data-theme="dark"] #about-details{color:var(--text)}
+
+/* About introduction text. */
+#who-am-i .mdl-card{color:#000}
+[data-theme="dark"] #who-am-i .mdl-card{color:var(--text)}
