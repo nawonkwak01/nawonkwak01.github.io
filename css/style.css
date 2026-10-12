@@ -208,3 +208,13 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 /* About introduction text. */
 #who-am-i .mdl-card{color:#000}
 [data-theme="dark"] #who-am-i .mdl-card{color:var(--text)}
+
+/* Home news: one shared card with compact dated updates. */
+.news-card{padding:26px 28px}
+.news-list{list-style:none;margin:0;padding:0}
+.news-list>li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:22px;align-items:start}
+.news-list>li+li{margin-top:20px;padding-top:20px;border-top:1px solid var(--border)}
+.news-meta{display:flex;flex-direction:column;align-items:flex-start;gap:8px;font-size:14px;color:var(--text)}
+.news-status{display:inline-block;padding:3px 9px;border-radius:4px;background:var(--bg);color:var(--primary);font-size:12px;font-weight:700;line-height:1.5}
+.news-list p{margin:0;color:var(--text);overflow-wrap:anywhere}
+@media(max-width:600px){.news-card{padding:22px 18px}.news-list>li{grid-template-columns:1fr;gap:10px}.news-meta{flex-direction:row;align-items:center;gap:12px}}
