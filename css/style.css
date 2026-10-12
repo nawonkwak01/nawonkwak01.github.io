@@ -218,3 +218,7 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 .news-status{display:inline-block;padding:3px 9px;border-radius:4px;background:var(--bg);color:var(--primary);font-size:12px;font-weight:700;line-height:1.5}
 .news-list p{margin:0;color:var(--text);overflow-wrap:anywhere}
 @media(max-width:600px){.news-card{padding:22px 18px}.news-list>li{grid-template-columns:1fr;gap:10px}.news-meta{flex-direction:row;align-items:center;gap:12px}}
+/* Keep around two news entries visible, with keyboard and touch scrolling. */
+.news-list{max-height:230px;overflow-y:auto;scrollbar-gutter:stable;padding-right:14px;scrollbar-width:thin;scrollbar-color:#9aa9b8 transparent}
+.news-list:focus-visible{outline:2px solid var(--primary);outline-offset:4px}
+@media(max-width:600px){.news-list{max-height:360px;padding-right:10px}}
