@@ -202,7 +202,7 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 }
 
 /* Emphasize only the home profile introduction. */
-#about-details{color:#424242}
+#about-details{color:#303030;font-size:16px;line-height:1.8}
 [data-theme="dark"] #about-details{color:var(--text)}
 
 /* About introduction text. */

@@ -9,7 +9,7 @@ function renderAbout(a) {
     const detailsHTML = a.details
         .map(
             d =>
-                `<li><div class="profile-title">${d.emoji} ${d.label} :</div> ${d.value}</li>`
+                `<li>${d.label && d.label.trim() ? `<div class="profile-title">${d.emoji || ""} ${d.label} :</div> ` : ""}${d.value}</li>`
         )
         .join("");
 
