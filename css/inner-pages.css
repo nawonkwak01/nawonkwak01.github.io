@@ -54,3 +54,7 @@ img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;a
 /* About Me body text; section heading uses the shared h2 style. */
 #who-am-i .mdl-card p{font-size:16px;line-height:1.8}
 #who-am-i .mdl-card strong{color:var(--primary)}
+
+/* Keep linked research headings visible below the fixed navigation. */
+.research-category h2[id]{scroll-margin-top:104px}
+@media(max-width:1024px){.research-category h2[id]{scroll-margin-top:88px}}
