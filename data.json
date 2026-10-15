@@ -42,7 +42,7 @@
     },
     "whatIDo": [
         {
-            "icon": "zmdi-invert-colors",
+            "icon": "custom-boxes",
             "iconColor": "font-blue",
             "title": "Lightweight & High-Temperature Alloys",
             "description": "Research on lightweight and high-temperature metallic alloys, with an emphasis on processing–microstructure–property relationships."
