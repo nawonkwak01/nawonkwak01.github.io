@@ -222,4 +222,7 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 .news-list{max-height:230px;overflow-y:auto;scrollbar-gutter:stable;padding-right:14px;scrollbar-width:thin;scrollbar-color:#9aa9b8 transparent}
 .news-list:focus-visible{outline:2px solid var(--primary);outline-offset:4px}
 @media(max-width:600px){.news-list{max-height:360px;padding-right:10px}}
-#research-experiences-home .research-summary-image{display:block;width:100%;height:160px;object-fit:contain;margin:0 auto 20px}
+#research-experiences-home .mdl-card{padding:10px 8px 34px}
+#research-experiences-home .research-summary-image{display:block;width:100%;height:auto;object-fit:contain;margin:0 auto 20px}
+#research-experiences-home .mdl-card h4,#research-experiences-home .mdl-card p{margin-left:20px;margin-right:20px}
+@media(max-width:767px){#research-experiences-home .mdl-card{padding-bottom:26px}#research-experiences-home .mdl-card h4,#research-experiences-home .mdl-card p{margin-left:10px;margin-right:10px}}
