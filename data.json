@@ -44,20 +44,20 @@
         {
             "icon": "zmdi-invert-colors",
             "iconColor": "font-blue",
-            "title": "Lightweight Alloys",
-            "description": "Research on aluminum and magnesium alloys with emphasis on processing–microstructure–property relationships."
+            "title": "Lightweight & High-Temperature Alloys",
+            "description": "Research on lightweight and high-temperature metallic alloys, with an emphasis on processing–microstructure–property relationships."
         },
         {
             "icon": "zmdi-view-module",
             "iconColor": "font-green",
-            "title": "Microstructure & Phase Transformation",
-            "description": "Characterization of precipitates, phases, solidification structures, and microstructural evolution using microscopy and diffraction."
+            "title": "Microstructural Evolution & Mechanical Behavior",
+            "description": "Understanding how microstructural evolution and phase transformations influence the mechanical behavior of metallic alloys."
         },
         {
             "icon": "zmdi-layers",
             "iconColor": "font-yellow",
             "title": "Advanced Processing",
-            "description": "Experience with casting, heat treatment, residual-stress analysis, and metal additive manufacturing."
+            "description": "Investigating how casting, additive manufacturing, and heat treatment influence microstructure and material properties."
         }
     ],
     "experience": [
