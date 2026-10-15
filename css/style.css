@@ -227,5 +227,5 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 #research-experiences-home .mdl-card h4,#research-experiences-home .mdl-card p{margin-left:20px;margin-right:20px}
 @media(max-width:767px){#research-experiences-home .mdl-card{padding-bottom:26px}#research-experiences-home .mdl-card h4,#research-experiences-home .mdl-card p{margin-left:10px;margin-right:10px}}
 
-#research-experiences-home .mdl-card p{color:#000}
-[data-theme="dark"] #research-experiences-home .mdl-card p{color:var(--text)}
+#portfolio_sec .mdl-card p,#research-experiences-home .mdl-card p,#project-experiments-home .mdl-card p{color:#505050}
+[data-theme="dark"] #portfolio_sec .mdl-card p,[data-theme="dark"] #research-experiences-home .mdl-card p,[data-theme="dark"] #project-experiments-home .mdl-card p{color:var(--text)}
