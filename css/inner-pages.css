@@ -51,6 +51,6 @@ img.activity-photo{height:auto;min-height:0;max-height:none;object-fit:contain;a
 .research-slm-media>img{display:block;width:100%;height:auto;background:#fff}
 .research-slm-window{position:absolute;left:0.53%;top:9.1%;width:30.5%;height:86.1%;overflow:hidden;background:#fff;border:0;line-height:0}
 .research-slm-window .research-slm-video{display:block;position:absolute;inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);object-fit:cover;background:transparent;border:0;outline:0}
-/* About Me typography matches the education card titles. */
-#who-am-i > h2{font-family:inherit;font-size:18px;font-weight:700;color:var(--primary)}
+/* About Me body text; section heading uses the shared h2 style. */
+#who-am-i .mdl-card p{font-size:16px;line-height:1.8}
 #who-am-i .mdl-card strong{color:var(--primary)}
