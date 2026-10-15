@@ -19,6 +19,9 @@
     function scheduleAlignment() {
         requestAnimationFrame(function () { requestAnimationFrame(alignResearchHeading); });
     }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', scheduleAlignment);
+    else scheduleAlignment();
+    if (document.fonts) document.fonts.ready.then(scheduleAlignment);
     window.addEventListener('load', function () {
         if (document.fonts) document.fonts.ready.then(scheduleAlignment);
         else scheduleAlignment();
