@@ -28,7 +28,7 @@ function renderWhatIDo(items) {
             item =>
                 `<div class="col-md-4 col-xs-12 mb-30">
           <a class="mdl-card mdl-shadow--2dp text-center" href="research.html" aria-label="${item.title} — Research Interests" style="color: inherit; text-decoration: none;">
-            <i class="zmdi ${item.icon} ${item.iconColor} profile-icon"></i>
+            ${item.icon === "custom-boxes" ? `<svg class="${item.iconColor} profile-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:block;margin:0 auto 18px;"><path d="m9 3 4 2.3v4.4L9 12l-4-2.3V5.3L9 3Z"/><path d="m5 5.3 4 2.3 4-2.3M9 7.6V12"/><path d="m15 10 4 2.3v4.4L15 19l-4-2.3v-4.4L15 10Z"/><path d="m11 12.3 4 2.3 4-2.3M15 14.6V19"/><path d="m7 12 4 2.3v4.4L7 21l-4-2.3v-4.4L7 12Z"/><path d="m3 14.3 4 2.3 4-2.3M7 16.6V21"/></svg>` : `<i class="zmdi ${item.icon} ${item.iconColor} profile-icon"></i>`}
             <h4 class="mb-15">${item.title}</h4>
             <p>${item.description}</p>
           </a>
