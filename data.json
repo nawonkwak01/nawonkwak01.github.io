@@ -169,7 +169,7 @@
         },
         {
             "name": "Research Interests",
-            "url": "research.html",
+            "url": "index.html#portfolio_sec",
             "description": "Current research interests in lightweight alloys, phase transformation, high-temperature materials, and microstructure characterization.",
             "banner": "img/github_banner.jpg",
             "color": "#777777",
