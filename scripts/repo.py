@@ -33,19 +33,7 @@ colors = getjson(
 )
 
 # all the repos list which i want to show on website
-repos_list = [
-    "vedic-lang/vedic",
-    "vedicscriptures/bhagavad-gita-api",
-    "PtPrashantTripathi/PortfolioTracker",
-    "PtPrashantTripathi/AadhaarQRCodeReader",
-    "PtPrashantTripathi/linkpe",
-    "PtPrashantTripathi/movieinfo",
-    "PtPrashantTripathi/IPL-2020-Prediction",
-    "PtPrashantTripathi/Shree-Ganesh",
-    "PtPrashantTripathi/Cloud-Storage-System",
-    "PtPrashantTripathi/Adhyatma",
-    "PtPrashantTripathi/php-social-networking-site",
-]
+repos_list = ["nawonkwak01/nawonkwak01.github.io"]
 
 # execuation timer
 start_time = time.time()

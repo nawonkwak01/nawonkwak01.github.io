@@ -2,7 +2,7 @@
 """
 sitemap_generator.py
 ────────────────────
-Crawls https://PtPrashantTripathi.github.io and every GitHub-Pages repo
+Crawls https://nawonkwak01.github.io and every GitHub-Pages repo
 for the user, then generates a clean sitemap.xml.
 
 Flow
@@ -40,7 +40,7 @@ from bs4 import BeautifulSoup
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 
-USERNAME = "PtPrashantTripathi"
+USERNAME = "nawonkwak01"
 BASE_DOMAIN = f"{USERNAME.lower()}.github.io"
 BASE_URL = f"https://{BASE_DOMAIN}/"
 
