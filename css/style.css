@@ -229,6 +229,8 @@ a.researchgate-link i.zmdi{vertical-align:middle;font-size:0;line-height:1}
 
 #portfolio_sec .mdl-card p,#research-experiences-home .mdl-card p,#project-experiments-home .mdl-card p{color:#505050}
 [data-theme="dark"] #portfolio_sec .mdl-card p,[data-theme="dark"] #research-experiences-home .mdl-card p,[data-theme="dark"] #project-experiments-home .mdl-card p{color:var(--text)}
-#research-experiences-home > h2,#project-experiments-home > h2{font-weight:700}
+#research-experiences-home > h2,#research-experiences-home > h2 > a,#project-experiments-home > h2,#project-experiments-home > h2 > a{font-weight:700}
 
-#portfolio_sec .research-interest-statement p{font-size:16px;line-height:1.8;margin:0}
+#portfolio_sec .research-interest-statement p{font-size:18px;line-height:1.8;margin:0;color:#000}
+
+[data-theme=dark] #portfolio_sec .research-interest-statement p{color:var(--text)}
