@@ -45,19 +45,19 @@
             "icon": "custom-boxes",
             "iconColor": "font-blue",
             "title": "Lightweight & High-Temperature Alloys",
-            "description": "Research on lightweight and high-temperature metallic alloys, with an emphasis on processing–microstructure–property relationships."
+            "description": "Designing lightweight and high-temperature alloys with improved mechanical performance and structural reliability."
         },
         {
             "icon": "zmdi-view-module",
             "iconColor": "font-green",
-            "title": "Microstructural Evolution & Mechanical Behavior",
-            "description": "Understanding how microstructural evolution and phase transformations influence the mechanical behavior of metallic alloys."
+            "title": "Microstructure & Residual Stress",
+            "description": "Understanding how microstructural evolution and phase transformations influence mechanical behavior and residual stress in metallic alloys."
         },
         {
             "icon": "zmdi-layers",
             "iconColor": "font-yellow",
             "title": "Advanced Processing",
-            "description": "Investigating how casting, additive manufacturing, and heat treatment influence microstructure and material properties."
+            "description": "Investigating how casting, additive manufacturing, and heat treatment affect the microstructure and properties of metallic alloys."
         }
     ],
     "experience": [
