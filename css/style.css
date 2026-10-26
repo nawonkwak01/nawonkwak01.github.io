@@ -50,7 +50,7 @@ p{font-size:15px;line-height:1.7}
 .mdl-layout__drawer .mdl-navigation__link:hover{background:#16161e!important;color:#fff!important}
 .drawer-profile-wrap{padding-top:18px;text-align:center;background:#16161e}
 .candidate-name{color:#fff;font-size:18px;font-weight:500}
-.candidate-img-drawer{width:120px;height:120px;border-radius:50%;background:url('../img/mme.png') center/cover no-repeat;margin:0 auto 16px}
+.candidate-img-drawer{width:120px;height:120px;border-radius:50%;background:url('../img/pic me.jpg') center/cover no-repeat;margin:0 auto 16px}
 .social-icons{text-align:center}
 .social-icons li{display:inline-block;vertical-align:middle;margin:0 7px}
 .social-icons li>a{display:inline-flex;align-items:center;justify-content:center;height:32px;vertical-align:middle}
