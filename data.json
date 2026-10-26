@@ -134,11 +134,6 @@
     ],
     "certifications": [
         {
-            "name": "TOEFL iBT Overall 4.0",
-            "issuer": "Educational Testing Service",
-            "date": "RC 4.5 LC 5.0 WRT 3.0 SPK 3.5"
-        },
-        {
             "name": "Engineer Metal",
             "issuer": "Human Resources Development Service of Korea",
             "date": "Sep. 2024"
